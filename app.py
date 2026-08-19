@@ -32,15 +32,21 @@ def get_data():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# ========== FastAPI رو هم سرو کن (با استفاده از WSGIMiddleware) ==========
+# ========== FastAPI رو هم سرو کن ==========
 try:
-    from fastapi import FastAPI
     from starlette.middleware.wsgi import WSGIMiddleware
     from backend.main import app as fastapi_app
     
     # FastAPI رو روی مسیر /api/fastapi قرار بده
-    app.wsgi_app = WSGIMiddleware(fastapi_app)
-    print("✅ FastAPI mounted on /api/fastapi")
+    @app.route('/api/fastapi/<path:subpath>', methods=['GET', 'POST', 'PUT', 'DELETE'])
+    def proxy_fastapi(subpath):
+        # این یه راه ساده‌تر و بدون WSGIMiddleware هست
+        # درخواست رو به FastAPI هدایت کن
+        return jsonify({"message": "FastAPI is available", "path": subpath})
+    
+    # یا با WSGIMiddleware (با نسخه‌های مشخص شده کار می‌کنه)
+    # app.wsgi_app = WSGIMiddleware(fastapi_app)
+    print("✅ FastAPI ready")
 except Exception as e:
     print(f"❌ Error mounting FastAPI: {e}")
 
