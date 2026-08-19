@@ -7,3 +7,13 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
+
+  - type: web
+    name: migration-frontend
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://migration-backend.onrender.com/api/*

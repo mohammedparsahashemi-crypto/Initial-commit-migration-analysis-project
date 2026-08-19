@@ -14,7 +14,8 @@ let allPredictionsChart = null;
 let homeChart = null;
 let geoJSONCache = null;
 
-const API_URL = 'http://localhost:8000/api/v1';
+// === تغییر مهم برای Render ===
+const API_URL = '/api/v1';
 const CURRENT_YEAR = 1405;
 
 // =========================================================

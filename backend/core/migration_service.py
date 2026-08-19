@@ -1,11 +1,18 @@
 import json
 import os
 import random
+from pathlib import Path
 
-# مسیر درست - از backend/core به ریشه پروژه برمیگردیم
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')
-HISTORICAL_FILE = os.path.join(DATA_DIR, 'historical-data.json')
-MIGRATION_FILE = os.path.join(DATA_DIR, 'migration-data.json')
+# === تغییر مهم برای Render ===
+# به جای مسیر نسبی پیچیده، از Path استفاده می‌کنیم
+BASE_DIR = Path(__file__).parent.parent.parent  # به ریشه پروژه می‌رود
+DATA_DIR = BASE_DIR / "data"
+HISTORICAL_FILE = DATA_DIR / "historical-data.json"
+MIGRATION_FILE = DATA_DIR / "migration-data.json"
+
+# اگر پوشه data وجود ندارد، بساز
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
 
 class MigrationService:
     def __init__(self):
@@ -19,7 +26,7 @@ class MigrationService:
     
     def _load_data(self):
         print(f"📂 بارگذاری از: {MIGRATION_FILE}")
-        if os.path.exists(MIGRATION_FILE):
+        if MIGRATION_FILE.exists():
             with open(MIGRATION_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 
@@ -44,12 +51,12 @@ class MigrationService:
                 
                 print(f"✅ {len(self.provinces)} استان بارگذاری شد")
         else:
-            print(f"❌ فایل پیدا نشد: {MIGRATION_FILE}")
+            print(f"⚠️ فایل پیدا نشد: {MIGRATION_FILE}")
         
-        if os.path.exists(HISTORICAL_FILE):
+        if HISTORICAL_FILE.exists():
             with open(HISTORICAL_FILE, 'r', encoding='utf-8') as f:
                 self.historical_data = json.load(f)
-                print(f"✅ {len(self.historical_data)} استان داده تاریخی بارگذاری شد")
+                print(f"✅ داده‌های تاریخی بارگذاری شدند")
     
     def _generate_historical_if_needed(self):
         if not self.historical_data or len(self.historical_data) == 0:
@@ -102,10 +109,10 @@ class MigrationService:
             }
     
     def _save_historical_data(self):
-        os.makedirs(DATA_DIR, exist_ok=True)
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
         with open(HISTORICAL_FILE, 'w', encoding='utf-8') as f:
             json.dump(self.historical_data, f, ensure_ascii=False, indent=2)
-        print(f"✅ داده‌های تاریخی ذخیره شدند: {len(self.historical_data)} استان در {HISTORICAL_FILE}")
+        print(f"✅ داده‌های تاریخی ذخیره شدند: {len(self.historical_data)} استان")
     
     def get_historical(self, province_name):
         if province_name in self.historical_data:
