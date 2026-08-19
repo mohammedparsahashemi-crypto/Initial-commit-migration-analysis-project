@@ -1,54 +1,43 @@
-from flask import Flask, send_from_directory, jsonify
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 import os
-import json
 import sys
 
-# اضافه کردن مسیر backend
+# اضافه کردن پوشه backend به مسیر
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'backend'))
 
-# ========== Flask App ==========
-app = Flask(__name__, static_folder='.', static_url_path='')
+# ========== FastAPI App ==========
+app = FastAPI()
 
-# ========== مسیرهای فرانت‌اند ==========
-@app.route('/')
-def index():
-    return send_from_directory('.', 'index.html')
-
-@app.route('/<path:path>')
-def static_files(path):
-    return send_from_directory('.', path)
-
-# ========== مسیرهای API ساده (برای تست) ==========
-@app.route('/api/test')
-def test_api():
-    return jsonify({"status": "ok", "message": "API is alive!"})
-
-@app.route('/api/data')
-def get_data():
-    try:
-        with open('data/migration-data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return jsonify(data)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-# ========== FastAPI رو هم سرو کن ==========
+# ========== ایمپورت کردن مسیرهای بک‌اند ==========
 try:
-    from starlette.middleware.wsgi import WSGIMiddleware
     from backend.main import app as fastapi_app
-    
-    # FastAPI رو روی مسیر /api/fastapi قرار بده
-    @app.route('/api/fastapi/<path:subpath>', methods=['GET', 'POST', 'PUT', 'DELETE'])
-    def proxy_fastapi(subpath):
-        # این یه راه ساده‌تر و بدون WSGIMiddleware هست
-        # درخواست رو به FastAPI هدایت کن
-        return jsonify({"message": "FastAPI is available", "path": subpath})
-    
-    # یا با WSGIMiddleware (با نسخه‌های مشخص شده کار می‌کنه)
-    # app.wsgi_app = WSGIMiddleware(fastapi_app)
-    print("✅ FastAPI ready")
+    # کپی کردن مسیرهای FastAPI اصلی
+    for route in fastapi_app.routes:
+        app.routes.append(route)
+    print("✅ Backend routes loaded")
 except Exception as e:
-    print(f"❌ Error mounting FastAPI: {e}")
+    print(f"❌ Error loading backend: {e}")
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 10000)))
+# ========== سرو فایل‌های استاتیک (فرانت‌اند) ==========
+# سرو کردن فایل‌های استاتیک از ریشه پروژه
+app.mount("/static", StaticFiles(directory="."), name="static")
+
+@app.get("/")
+async def index():
+    return FileResponse("index.html")
+
+@app.get("/{path:path}")
+async def serve_static(path: str):
+    # اگر فایل وجود داشت، برگردون
+    file_path = path
+    if os.path.exists(file_path):
+        return FileResponse(file_path)
+    # وگرنه 404
+    return {"error": "File not found"}, 404
+
+# ========== اجرا ==========
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
