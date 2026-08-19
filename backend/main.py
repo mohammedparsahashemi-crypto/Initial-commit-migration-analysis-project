@@ -1,10 +1,8 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from backend.api.routes import router
+import os
 
 app = FastAPI(title="آرانش - سامانه پایش مهاجرت")
 
@@ -18,10 +16,17 @@ app.add_middleware(
 
 app.include_router(router, prefix="/api/v1")
 
+# ========== سرو کردن فرانت‌اند ==========
 @app.get("/")
-async def root():
-    return {"message": "✦ آرانش · سامانه پایش مهاجرت ✦", "status": "running"}
+async def index():
+    return FileResponse("index.html")
+
+@app.get("/{path:path}")
+async def serve_static(path: str):
+    if os.path.exists(path):
+        return FileResponse(path)
+    return {"error": "File not found"}, 404
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
