@@ -1,0 +1,6204 @@
+{
+  "years": {
+    "1375": {
+      "Tehran": {
+        "incoming": 314782,
+        "outgoing": 283456
+      },
+      "Karaj": {
+        "incoming": 98734,
+        "outgoing": 58761
+      },
+      "Tabriz": {
+        "incoming": 34218,
+        "outgoing": 54237
+      },
+      "Isfahan": {
+        "incoming": 64789,
+        "outgoing": 78234
+      },
+      "Mashhad": {
+        "incoming": 104567,
+        "outgoing": 84321
+      },
+      "Shiraz": {
+        "incoming": 76345,
+        "outgoing": 53456
+      },
+      "Qom": {
+        "incoming": 52341,
+        "outgoing": 31876
+      },
+      "Ahvaz": {
+        "incoming": 37654,
+        "outgoing": 42987
+      },
+      "Rasht": {
+        "incoming": 38765,
+        "outgoing": 12345
+      },
+      "Semnan": {
+        "incoming": 21987,
+        "outgoing": 6789
+      },
+      "Arak": {
+        "incoming": 17654,
+        "outgoing": 22987
+      },
+      "Zahedan": {
+        "incoming": 18765,
+        "outgoing": 23987
+      },
+      "Kermanshah": {
+        "incoming": 35432,
+        "outgoing": 34218
+      },
+      "Hamedan": {
+        "incoming": 27896,
+        "outgoing": 19234
+      },
+      "Yazd": {
+        "incoming": 28765,
+        "outgoing": 16543
+      },
+      "Bandar Abbas": {
+        "incoming": 38765,
+        "outgoing": 26543
+      },
+      "Urmia": {
+        "incoming": 23987,
+        "outgoing": 16789
+      },
+      "Ardabil": {
+        "incoming": 21987,
+        "outgoing": 14321
+      },
+      "Zanjan": {
+        "incoming": 18765,
+        "outgoing": 11234
+      },
+      "Sanandaj": {
+        "incoming": 25432,
+        "outgoing": 19234
+      },
+      "Shahrekord": {
+        "incoming": 17654,
+        "outgoing": 10234
+      },
+      "Ilam": {
+        "incoming": 10234,
+        "outgoing": 8197
+      },
+      "Bojnurd": {
+        "incoming": 13219,
+        "outgoing": 13219
+      },
+      "Birjand": {
+        "incoming": 15219,
+        "outgoing": 12198
+      },
+      "Sari": {
+        "incoming": 11219,
+        "outgoing": 12198
+      },
+      "Kerman": {
+        "incoming": 19234,
+        "outgoing": 18219
+      },
+      "Gorgan": {
+        "incoming": 17219,
+        "outgoing": 15219
+      },
+      "Khorramabad": {
+        "incoming": 11219,
+        "outgoing": 21987
+      },
+      "Qazvin": {
+        "incoming": 17219,
+        "outgoing": 28765
+      },
+      "Yasuj": {
+        "incoming": 12198,
+        "outgoing": 10234
+      },
+      "Bushehr": {
+        "incoming": 16543,
+        "outgoing": 12198
+      }
+    },
+    "1376": {
+      "Tehran": {
+        "incoming": 316543,
+        "outgoing": 285432
+      },
+      "Karaj": {
+        "incoming": 99234,
+        "outgoing": 59234
+      },
+      "Tabriz": {
+        "incoming": 34432,
+        "outgoing": 54432
+      },
+      "Isfahan": {
+        "incoming": 65234,
+        "outgoing": 78765
+      },
+      "Mashhad": {
+        "incoming": 105432,
+        "outgoing": 84765
+      },
+      "Shiraz": {
+        "incoming": 76543,
+        "outgoing": 53876
+      },
+      "Qom": {
+        "incoming": 52765,
+        "outgoing": 32198
+      },
+      "Ahvaz": {
+        "incoming": 37876,
+        "outgoing": 43219
+      },
+      "Rasht": {
+        "incoming": 39234,
+        "outgoing": 12654
+      },
+      "Semnan": {
+        "incoming": 22198,
+        "outgoing": 6876
+      },
+      "Arak": {
+        "incoming": 17876,
+        "outgoing": 23219
+      },
+      "Zahedan": {
+        "incoming": 18987,
+        "outgoing": 24219
+      },
+      "Kermanshah": {
+        "incoming": 35654,
+        "outgoing": 34432
+      },
+      "Hamedan": {
+        "incoming": 28123,
+        "outgoing": 19456
+      },
+      "Yazd": {
+        "incoming": 28987,
+        "outgoing": 16765
+      },
+      "Bandar Abbas": {
+        "incoming": 39234,
+        "outgoing": 26765
+      },
+      "Urmia": {
+        "incoming": 24219,
+        "outgoing": 16987
+      },
+      "Ardabil": {
+        "incoming": 22198,
+        "outgoing": 14543
+      },
+      "Zanjan": {
+        "incoming": 18987,
+        "outgoing": 11456
+      },
+      "Sanandaj": {
+        "incoming": 25654,
+        "outgoing": 19456
+      },
+      "Shahrekord": {
+        "incoming": 17876,
+        "outgoing": 10456
+      },
+      "Ilam": {
+        "incoming": 10456,
+        "outgoing": 8321
+      },
+      "Bojnurd": {
+        "incoming": 13432,
+        "outgoing": 13432
+      },
+      "Birjand": {
+        "incoming": 15432,
+        "outgoing": 12432
+      },
+      "Sari": {
+        "incoming": 11432,
+        "outgoing": 12432
+      },
+      "Kerman": {
+        "incoming": 19456,
+        "outgoing": 18432
+      },
+      "Gorgan": {
+        "incoming": 17432,
+        "outgoing": 15432
+      },
+      "Khorramabad": {
+        "incoming": 11432,
+        "outgoing": 22198
+      },
+      "Qazvin": {
+        "incoming": 17432,
+        "outgoing": 28987
+      },
+      "Yasuj": {
+        "incoming": 12432,
+        "outgoing": 10456
+      },
+      "Bushehr": {
+        "incoming": 16765,
+        "outgoing": 12432
+      }
+    },
+    "1377": {
+      "Tehran": {
+        "incoming": 318234,
+        "outgoing": 287654
+      },
+      "Karaj": {
+        "incoming": 99654,
+        "outgoing": 59654
+      },
+      "Tabriz": {
+        "incoming": 34654,
+        "outgoing": 54654
+      },
+      "Isfahan": {
+        "incoming": 65654,
+        "outgoing": 79234
+      },
+      "Mashhad": {
+        "incoming": 106234,
+        "outgoing": 85234
+      },
+      "Shiraz": {
+        "incoming": 76765,
+        "outgoing": 54219
+      },
+      "Qom": {
+        "incoming": 52987,
+        "outgoing": 32432
+      },
+      "Ahvaz": {
+        "incoming": 38123,
+        "outgoing": 43432
+      },
+      "Rasht": {
+        "incoming": 39456,
+        "outgoing": 12876
+      },
+      "Semnan": {
+        "incoming": 22432,
+        "outgoing": 6987
+      },
+      "Arak": {
+        "incoming": 18123,
+        "outgoing": 23432
+      },
+      "Zahedan": {
+        "incoming": 19234,
+        "outgoing": 24432
+      },
+      "Kermanshah": {
+        "incoming": 35876,
+        "outgoing": 34654
+      },
+      "Hamedan": {
+        "incoming": 28345,
+        "outgoing": 19678
+      },
+      "Yazd": {
+        "incoming": 29234,
+        "outgoing": 16987
+      },
+      "Bandar Abbas": {
+        "incoming": 39456,
+        "outgoing": 26987
+      },
+      "Urmia": {
+        "incoming": 24432,
+        "outgoing": 17219
+      },
+      "Ardabil": {
+        "incoming": 22432,
+        "outgoing": 14765
+      },
+      "Zanjan": {
+        "incoming": 19234,
+        "outgoing": 11678
+      },
+      "Sanandaj": {
+        "incoming": 25876,
+        "outgoing": 19678
+      },
+      "Shahrekord": {
+        "incoming": 18123,
+        "outgoing": 10678
+      },
+      "Ilam": {
+        "incoming": 10678,
+        "outgoing": 8543
+      },
+      "Bojnurd": {
+        "incoming": 13654,
+        "outgoing": 13654
+      },
+      "Birjand": {
+        "incoming": 15654,
+        "outgoing": 12654
+      },
+      "Sari": {
+        "incoming": 11654,
+        "outgoing": 12654
+      },
+      "Kerman": {
+        "incoming": 19678,
+        "outgoing": 18654
+      },
+      "Gorgan": {
+        "incoming": 17654,
+        "outgoing": 15654
+      },
+      "Khorramabad": {
+        "incoming": 11654,
+        "outgoing": 22432
+      },
+      "Qazvin": {
+        "incoming": 17654,
+        "outgoing": 29234
+      },
+      "Yasuj": {
+        "incoming": 12654,
+        "outgoing": 10678
+      },
+      "Bushehr": {
+        "incoming": 16987,
+        "outgoing": 12654
+      }
+    },
+    "1378": {
+      "Tehran": {
+        "incoming": 319876,
+        "outgoing": 289876
+      },
+      "Karaj": {
+        "incoming": 100123,
+        "outgoing": 60123
+      },
+      "Tabriz": {
+        "incoming": 34876,
+        "outgoing": 54876
+      },
+      "Isfahan": {
+        "incoming": 66123,
+        "outgoing": 79765
+      },
+      "Mashhad": {
+        "incoming": 107123,
+        "outgoing": 85765
+      },
+      "Shiraz": {
+        "incoming": 76987,
+        "outgoing": 54543
+      },
+      "Qom": {
+        "incoming": 53219,
+        "outgoing": 32654
+      },
+      "Ahvaz": {
+        "incoming": 38345,
+        "outgoing": 43654
+      },
+      "Rasht": {
+        "incoming": 39765,
+        "outgoing": 13123
+      },
+      "Semnan": {
+        "incoming": 22654,
+        "outgoing": 7098
+      },
+      "Arak": {
+        "incoming": 18345,
+        "outgoing": 23654
+      },
+      "Zahedan": {
+        "incoming": 19456,
+        "outgoing": 24654
+      },
+      "Kermanshah": {
+        "incoming": 36123,
+        "outgoing": 34876
+      },
+      "Hamedan": {
+        "incoming": 28567,
+        "outgoing": 19876
+      },
+      "Yazd": {
+        "incoming": 29456,
+        "outgoing": 17219
+      },
+      "Bandar Abbas": {
+        "incoming": 39765,
+        "outgoing": 27219
+      },
+      "Urmia": {
+        "incoming": 24654,
+        "outgoing": 17432
+      },
+      "Ardabil": {
+        "incoming": 22654,
+        "outgoing": 14987
+      },
+      "Zanjan": {
+        "incoming": 19456,
+        "outgoing": 11876
+      },
+      "Sanandaj": {
+        "incoming": 26123,
+        "outgoing": 19876
+      },
+      "Shahrekord": {
+        "incoming": 18345,
+        "outgoing": 10876
+      },
+      "Ilam": {
+        "incoming": 10876,
+        "outgoing": 8765
+      },
+      "Bojnurd": {
+        "incoming": 13876,
+        "outgoing": 13876
+      },
+      "Birjand": {
+        "incoming": 15876,
+        "outgoing": 12876
+      },
+      "Sari": {
+        "incoming": 11876,
+        "outgoing": 12876
+      },
+      "Kerman": {
+        "incoming": 19876,
+        "outgoing": 18876
+      },
+      "Gorgan": {
+        "incoming": 17876,
+        "outgoing": 15876
+      },
+      "Khorramabad": {
+        "incoming": 11876,
+        "outgoing": 22654
+      },
+      "Qazvin": {
+        "incoming": 17876,
+        "outgoing": 29456
+      },
+      "Yasuj": {
+        "incoming": 12876,
+        "outgoing": 10876
+      },
+      "Bushehr": {
+        "incoming": 17219,
+        "outgoing": 12876
+      }
+    },
+    "1379": {
+      "Tehran": {
+        "incoming": 321234,
+        "outgoing": 292234
+      },
+      "Karaj": {
+        "incoming": 100654,
+        "outgoing": 60654
+      },
+      "Tabriz": {
+        "incoming": 35123,
+        "outgoing": 55123
+      },
+      "Isfahan": {
+        "incoming": 66654,
+        "outgoing": 80234
+      },
+      "Mashhad": {
+        "incoming": 107654,
+        "outgoing": 86234
+      },
+      "Shiraz": {
+        "incoming": 77234,
+        "outgoing": 54876
+      },
+      "Qom": {
+        "incoming": 53432,
+        "outgoing": 32876
+      },
+      "Ahvaz": {
+        "incoming": 38567,
+        "outgoing": 43876
+      },
+      "Rasht": {
+        "incoming": 40123,
+        "outgoing": 13432
+      },
+      "Semnan": {
+        "incoming": 22876,
+        "outgoing": 7219
+      },
+      "Arak": {
+        "incoming": 18567,
+        "outgoing": 23876
+      },
+      "Zahedan": {
+        "incoming": 19678,
+        "outgoing": 24876
+      },
+      "Kermanshah": {
+        "incoming": 36345,
+        "outgoing": 35123
+      },
+      "Hamedan": {
+        "incoming": 28765,
+        "outgoing": 20123
+      },
+      "Yazd": {
+        "incoming": 29678,
+        "outgoing": 17432
+      },
+      "Bandar Abbas": {
+        "incoming": 40123,
+        "outgoing": 27432
+      },
+      "Urmia": {
+        "incoming": 24876,
+        "outgoing": 17654
+      },
+      "Ardabil": {
+        "incoming": 22876,
+        "outgoing": 15219
+      },
+      "Zanjan": {
+        "incoming": 19678,
+        "outgoing": 12123
+      },
+      "Sanandaj": {
+        "incoming": 26345,
+        "outgoing": 20123
+      },
+      "Shahrekord": {
+        "incoming": 18567,
+        "outgoing": 11098
+      },
+      "Ilam": {
+        "incoming": 11098,
+        "outgoing": 8987
+      },
+      "Bojnurd": {
+        "incoming": 14123,
+        "outgoing": 14123
+      },
+      "Birjand": {
+        "incoming": 16123,
+        "outgoing": 13123
+      },
+      "Sari": {
+        "incoming": 12123,
+        "outgoing": 13123
+      },
+      "Kerman": {
+        "incoming": 20123,
+        "outgoing": 19123
+      },
+      "Gorgan": {
+        "incoming": 18123,
+        "outgoing": 16123
+      },
+      "Khorramabad": {
+        "incoming": 12123,
+        "outgoing": 22876
+      },
+      "Qazvin": {
+        "incoming": 18123,
+        "outgoing": 29678
+      },
+      "Yasuj": {
+        "incoming": 13123,
+        "outgoing": 11098
+      },
+      "Bushehr": {
+        "incoming": 17432,
+        "outgoing": 13123
+      }
+    },
+    "1380": {
+      "Tehran": {
+        "incoming": 323456,
+        "outgoing": 294567
+      },
+      "Karaj": {
+        "incoming": 101234,
+        "outgoing": 61234
+      },
+      "Tabriz": {
+        "incoming": 35432,
+        "outgoing": 55432
+      },
+      "Isfahan": {
+        "incoming": 67234,
+        "outgoing": 80765
+      },
+      "Mashhad": {
+        "incoming": 108234,
+        "outgoing": 86765
+      },
+      "Shiraz": {
+        "incoming": 77543,
+        "outgoing": 55234
+      },
+      "Qom": {
+        "incoming": 53654,
+        "outgoing": 33123
+      },
+      "Ahvaz": {
+        "incoming": 38765,
+        "outgoing": 44123
+      },
+      "Rasht": {
+        "incoming": 40456,
+        "outgoing": 13654
+      },
+      "Semnan": {
+        "incoming": 23123,
+        "outgoing": 7345
+      },
+      "Arak": {
+        "incoming": 18765,
+        "outgoing": 24123
+      },
+      "Zahedan": {
+        "incoming": 19876,
+        "outgoing": 25123
+      },
+      "Kermanshah": {
+        "incoming": 36543,
+        "outgoing": 35432
+      },
+      "Hamedan": {
+        "incoming": 28987,
+        "outgoing": 20345
+      },
+      "Yazd": {
+        "incoming": 29876,
+        "outgoing": 17654
+      },
+      "Bandar Abbas": {
+        "incoming": 40456,
+        "outgoing": 27654
+      },
+      "Urmia": {
+        "incoming": 25123,
+        "outgoing": 17876
+      },
+      "Ardabil": {
+        "incoming": 23123,
+        "outgoing": 15432
+      },
+      "Zanjan": {
+        "incoming": 19876,
+        "outgoing": 12345
+      },
+      "Sanandaj": {
+        "incoming": 26543,
+        "outgoing": 20345
+      },
+      "Shahrekord": {
+        "incoming": 18765,
+        "outgoing": 11219
+      },
+      "Ilam": {
+        "incoming": 11219,
+        "outgoing": 9123
+      },
+      "Bojnurd": {
+        "incoming": 14321,
+        "outgoing": 14321
+      },
+      "Birjand": {
+        "incoming": 16321,
+        "outgoing": 13321
+      },
+      "Sari": {
+        "incoming": 12321,
+        "outgoing": 13321
+      },
+      "Kerman": {
+        "incoming": 20345,
+        "outgoing": 19345
+      },
+      "Gorgan": {
+        "incoming": 18345,
+        "outgoing": 16321
+      },
+      "Khorramabad": {
+        "incoming": 12321,
+        "outgoing": 23123
+      },
+      "Qazvin": {
+        "incoming": 18321,
+        "outgoing": 29876
+      },
+      "Yasuj": {
+        "incoming": 13321,
+        "outgoing": 11219
+      },
+      "Bushehr": {
+        "incoming": 17654,
+        "outgoing": 13321
+      }
+    },
+    "1381": {
+      "Tehran": {
+        "incoming": 325678,
+        "outgoing": 296789
+      },
+      "Karaj": {
+        "incoming": 101876,
+        "outgoing": 61876
+      },
+      "Tabriz": {
+        "incoming": 35654,
+        "outgoing": 55765
+      },
+      "Isfahan": {
+        "incoming": 67876,
+        "outgoing": 81234
+      },
+      "Mashhad": {
+        "incoming": 108876,
+        "outgoing": 87234
+      },
+      "Shiraz": {
+        "incoming": 77876,
+        "outgoing": 55654
+      },
+      "Qom": {
+        "incoming": 53876,
+        "outgoing": 33432
+      },
+      "Ahvaz": {
+        "incoming": 38987,
+        "outgoing": 44321
+      },
+      "Rasht": {
+        "incoming": 40765,
+        "outgoing": 13876
+      },
+      "Semnan": {
+        "incoming": 23432,
+        "outgoing": 7456
+      },
+      "Arak": {
+        "incoming": 18987,
+        "outgoing": 24321
+      },
+      "Zahedan": {
+        "incoming": 20123,
+        "outgoing": 25345
+      },
+      "Kermanshah": {
+        "incoming": 36765,
+        "outgoing": 35654
+      },
+      "Hamedan": {
+        "incoming": 29234,
+        "outgoing": 20567
+      },
+      "Yazd": {
+        "incoming": 30123,
+        "outgoing": 17876
+      },
+      "Bandar Abbas": {
+        "incoming": 40765,
+        "outgoing": 27876
+      },
+      "Urmia": {
+        "incoming": 25345,
+        "outgoing": 18123
+      },
+      "Ardabil": {
+        "incoming": 23432,
+        "outgoing": 15654
+      },
+      "Zanjan": {
+        "incoming": 20123,
+        "outgoing": 12567
+      },
+      "Sanandaj": {
+        "incoming": 26765,
+        "outgoing": 20567
+      },
+      "Shahrekord": {
+        "incoming": 18987,
+        "outgoing": 11432
+      },
+      "Ilam": {
+        "incoming": 11432,
+        "outgoing": 9345
+      },
+      "Bojnurd": {
+        "incoming": 14543,
+        "outgoing": 14543
+      },
+      "Birjand": {
+        "incoming": 16543,
+        "outgoing": 13543
+      },
+      "Sari": {
+        "incoming": 12543,
+        "outgoing": 13543
+      },
+      "Kerman": {
+        "incoming": 20567,
+        "outgoing": 19567
+      },
+      "Gorgan": {
+        "incoming": 18567,
+        "outgoing": 16543
+      },
+      "Khorramabad": {
+        "incoming": 12543,
+        "outgoing": 23432
+      },
+      "Qazvin": {
+        "incoming": 18543,
+        "outgoing": 30123
+      },
+      "Yasuj": {
+        "incoming": 13543,
+        "outgoing": 11432
+      },
+      "Bushehr": {
+        "incoming": 17876,
+        "outgoing": 13543
+      }
+    },
+    "1382": {
+      "Tehran": {
+        "incoming": 327890,
+        "outgoing": 298901
+      },
+      "Karaj": {
+        "incoming": 102345,
+        "outgoing": 62345
+      },
+      "Tabriz": {
+        "incoming": 35876,
+        "outgoing": 55987
+      },
+      "Isfahan": {
+        "incoming": 68123,
+        "outgoing": 81765
+      },
+      "Mashhad": {
+        "incoming": 109123,
+        "outgoing": 87765
+      },
+      "Shiraz": {
+        "incoming": 78123,
+        "outgoing": 55987
+      },
+      "Qom": {
+        "incoming": 54123,
+        "outgoing": 33654
+      },
+      "Ahvaz": {
+        "incoming": 39234,
+        "outgoing": 44543
+      },
+      "Rasht": {
+        "incoming": 40987,
+        "outgoing": 14123
+      },
+      "Semnan": {
+        "incoming": 23654,
+        "outgoing": 7567
+      },
+      "Arak": {
+        "incoming": 19234,
+        "outgoing": 24543
+      },
+      "Zahedan": {
+        "incoming": 20345,
+        "outgoing": 25567
+      },
+      "Kermanshah": {
+        "incoming": 36987,
+        "outgoing": 35876
+      },
+      "Hamedan": {
+        "incoming": 29456,
+        "outgoing": 20789
+      },
+      "Yazd": {
+        "incoming": 30345,
+        "outgoing": 18123
+      },
+      "Bandar Abbas": {
+        "incoming": 40987,
+        "outgoing": 28123
+      },
+      "Urmia": {
+        "incoming": 25567,
+        "outgoing": 18345
+      },
+      "Ardabil": {
+        "incoming": 23654,
+        "outgoing": 15876
+      },
+      "Zanjan": {
+        "incoming": 20345,
+        "outgoing": 12789
+      },
+      "Sanandaj": {
+        "incoming": 26987,
+        "outgoing": 20789
+      },
+      "Shahrekord": {
+        "incoming": 19234,
+        "outgoing": 11654
+      },
+      "Ilam": {
+        "incoming": 11654,
+        "outgoing": 9567
+      },
+      "Bojnurd": {
+        "incoming": 14765,
+        "outgoing": 14765
+      },
+      "Birjand": {
+        "incoming": 16765,
+        "outgoing": 13765
+      },
+      "Sari": {
+        "incoming": 12765,
+        "outgoing": 13765
+      },
+      "Kerman": {
+        "incoming": 20789,
+        "outgoing": 19789
+      },
+      "Gorgan": {
+        "incoming": 18789,
+        "outgoing": 16765
+      },
+      "Khorramabad": {
+        "incoming": 12765,
+        "outgoing": 23654
+      },
+      "Qazvin": {
+        "incoming": 18765,
+        "outgoing": 30345
+      },
+      "Yasuj": {
+        "incoming": 13765,
+        "outgoing": 11654
+      },
+      "Bushehr": {
+        "incoming": 18123,
+        "outgoing": 13765
+      }
+    },
+    "1383": {
+      "Tehran": {
+        "incoming": 330123,
+        "outgoing": 301234
+      },
+      "Karaj": {
+        "incoming": 102876,
+        "outgoing": 62876
+      },
+      "Tabriz": {
+        "incoming": 36123,
+        "outgoing": 56234
+      },
+      "Isfahan": {
+        "incoming": 68456,
+        "outgoing": 82345
+      },
+      "Mashhad": {
+        "incoming": 109456,
+        "outgoing": 88234
+      },
+      "Shiraz": {
+        "incoming": 78456,
+        "outgoing": 56234
+      },
+      "Qom": {
+        "incoming": 54321,
+        "outgoing": 33876
+      },
+      "Ahvaz": {
+        "incoming": 39456,
+        "outgoing": 44765
+      },
+      "Rasht": {
+        "incoming": 41234,
+        "outgoing": 14321
+      },
+      "Semnan": {
+        "incoming": 23876,
+        "outgoing": 7678
+      },
+      "Arak": {
+        "incoming": 19456,
+        "outgoing": 24765
+      },
+      "Zahedan": {
+        "incoming": 20567,
+        "outgoing": 25789
+      },
+      "Kermanshah": {
+        "incoming": 37234,
+        "outgoing": 36123
+      },
+      "Hamedan": {
+        "incoming": 29678,
+        "outgoing": 20987
+      },
+      "Yazd": {
+        "incoming": 30567,
+        "outgoing": 18345
+      },
+      "Bandar Abbas": {
+        "incoming": 41234,
+        "outgoing": 28345
+      },
+      "Urmia": {
+        "incoming": 25789,
+        "outgoing": 18567
+      },
+      "Ardabil": {
+        "incoming": 23876,
+        "outgoing": 16123
+      },
+      "Zanjan": {
+        "incoming": 20567,
+        "outgoing": 12987
+      },
+      "Sanandaj": {
+        "incoming": 27234,
+        "outgoing": 20987
+      },
+      "Shahrekord": {
+        "incoming": 19456,
+        "outgoing": 11876
+      },
+      "Ilam": {
+        "incoming": 11876,
+        "outgoing": 9789
+      },
+      "Bojnurd": {
+        "incoming": 14987,
+        "outgoing": 14987
+      },
+      "Birjand": {
+        "incoming": 16987,
+        "outgoing": 13987
+      },
+      "Sari": {
+        "incoming": 12987,
+        "outgoing": 13987
+      },
+      "Kerman": {
+        "incoming": 20987,
+        "outgoing": 19987
+      },
+      "Gorgan": {
+        "incoming": 18987,
+        "outgoing": 16987
+      },
+      "Khorramabad": {
+        "incoming": 12987,
+        "outgoing": 23876
+      },
+      "Qazvin": {
+        "incoming": 18987,
+        "outgoing": 30567
+      },
+      "Yasuj": {
+        "incoming": 13987,
+        "outgoing": 11876
+      },
+      "Bushehr": {
+        "incoming": 18345,
+        "outgoing": 13987
+      }
+    },
+    "1384": {
+      "Tehran": {
+        "incoming": 332456,
+        "outgoing": 303456
+      },
+      "Karaj": {
+        "incoming": 103456,
+        "outgoing": 63456
+      },
+      "Tabriz": {
+        "incoming": 36345,
+        "outgoing": 56567
+      },
+      "Isfahan": {
+        "incoming": 68765,
+        "outgoing": 82876
+      },
+      "Mashhad": {
+        "incoming": 109876,
+        "outgoing": 88765
+      },
+      "Shiraz": {
+        "incoming": 78765,
+        "outgoing": 56567
+      },
+      "Qom": {
+        "incoming": 54567,
+        "outgoing": 34123
+      },
+      "Ahvaz": {
+        "incoming": 39765,
+        "outgoing": 44987
+      },
+      "Rasht": {
+        "incoming": 41567,
+        "outgoing": 14543
+      },
+      "Semnan": {
+        "incoming": 24123,
+        "outgoing": 7789
+      },
+      "Arak": {
+        "incoming": 19765,
+        "outgoing": 24987
+      },
+      "Zahedan": {
+        "incoming": 20789,
+        "outgoing": 26012
+      },
+      "Kermanshah": {
+        "incoming": 37456,
+        "outgoing": 36345
+      },
+      "Hamedan": {
+        "incoming": 29876,
+        "outgoing": 21234
+      },
+      "Yazd": {
+        "incoming": 30789,
+        "outgoing": 18567
+      },
+      "Bandar Abbas": {
+        "incoming": 41567,
+        "outgoing": 28567
+      },
+      "Urmia": {
+        "incoming": 26012,
+        "outgoing": 18789
+      },
+      "Ardabil": {
+        "incoming": 24123,
+        "outgoing": 16345
+      },
+      "Zanjan": {
+        "incoming": 20789,
+        "outgoing": 13234
+      },
+      "Sanandaj": {
+        "incoming": 27456,
+        "outgoing": 21234
+      },
+      "Shahrekord": {
+        "incoming": 19765,
+        "outgoing": 12123
+      },
+      "Ilam": {
+        "incoming": 12123,
+        "outgoing": 9987
+      },
+      "Bojnurd": {
+        "incoming": 15234,
+        "outgoing": 15234
+      },
+      "Birjand": {
+        "incoming": 17234,
+        "outgoing": 14234
+      },
+      "Sari": {
+        "incoming": 13234,
+        "outgoing": 14234
+      },
+      "Kerman": {
+        "incoming": 21234,
+        "outgoing": 20234
+      },
+      "Gorgan": {
+        "incoming": 19234,
+        "outgoing": 17234
+      },
+      "Khorramabad": {
+        "incoming": 13234,
+        "outgoing": 24123
+      },
+      "Qazvin": {
+        "incoming": 19234,
+        "outgoing": 30789
+      },
+      "Yasuj": {
+        "incoming": 14234,
+        "outgoing": 12123
+      },
+      "Bushehr": {
+        "incoming": 18567,
+        "outgoing": 14234
+      }
+    },
+    "1385": {
+      "Tehran": {
+        "incoming": 334567,
+        "outgoing": 305678
+      },
+      "Karaj": {
+        "incoming": 104567,
+        "outgoing": 64567
+      },
+      "Tabriz": {
+        "incoming": 36567,
+        "outgoing": 56789
+      },
+      "Isfahan": {
+        "incoming": 69123,
+        "outgoing": 83456
+      },
+      "Mashhad": {
+        "incoming": 110234,
+        "outgoing": 89234
+      },
+      "Shiraz": {
+        "incoming": 79123,
+        "outgoing": 56789
+      },
+      "Qom": {
+        "incoming": 54789,
+        "outgoing": 34345
+      },
+      "Ahvaz": {
+        "incoming": 40123,
+        "outgoing": 45234
+      },
+      "Rasht": {
+        "incoming": 41789,
+        "outgoing": 14765
+      },
+      "Semnan": {
+        "incoming": 24345,
+        "outgoing": 7890
+      },
+      "Arak": {
+        "incoming": 20123,
+        "outgoing": 25234
+      },
+      "Zahedan": {
+        "incoming": 20987,
+        "outgoing": 26234
+      },
+      "Kermanshah": {
+        "incoming": 37654,
+        "outgoing": 36567
+      },
+      "Hamedan": {
+        "incoming": 30123,
+        "outgoing": 21456
+      },
+      "Yazd": {
+        "incoming": 30987,
+        "outgoing": 18789
+      },
+      "Bandar Abbas": {
+        "incoming": 41789,
+        "outgoing": 28789
+      },
+      "Urmia": {
+        "incoming": 26234,
+        "outgoing": 18987
+      },
+      "Ardabil": {
+        "incoming": 24345,
+        "outgoing": 16567
+      },
+      "Zanjan": {
+        "incoming": 20987,
+        "outgoing": 13456
+      },
+      "Sanandaj": {
+        "incoming": 27654,
+        "outgoing": 21456
+      },
+      "Shahrekord": {
+        "incoming": 20123,
+        "outgoing": 12345
+      },
+      "Ilam": {
+        "incoming": 12345,
+        "outgoing": 10234
+      },
+      "Bojnurd": {
+        "incoming": 15456,
+        "outgoing": 15456
+      },
+      "Birjand": {
+        "incoming": 17456,
+        "outgoing": 14456
+      },
+      "Sari": {
+        "incoming": 13456,
+        "outgoing": 14456
+      },
+      "Kerman": {
+        "incoming": 21456,
+        "outgoing": 20456
+      },
+      "Gorgan": {
+        "incoming": 19456,
+        "outgoing": 17456
+      },
+      "Khorramabad": {
+        "incoming": 13456,
+        "outgoing": 24345
+      },
+      "Qazvin": {
+        "incoming": 19456,
+        "outgoing": 30987
+      },
+      "Yasuj": {
+        "incoming": 14456,
+        "outgoing": 12345
+      },
+      "Bushehr": {
+        "incoming": 18789,
+        "outgoing": 14456
+      }
+    },
+    "1386": {
+      "Tehran": {
+        "incoming": 337890,
+        "outgoing": 308901
+      },
+      "Karaj": {
+        "incoming": 105678,
+        "outgoing": 65678
+      },
+      "Tabriz": {
+        "incoming": 36789,
+        "outgoing": 56987
+      },
+      "Isfahan": {
+        "incoming": 69456,
+        "outgoing": 83987
+      },
+      "Mashhad": {
+        "incoming": 110678,
+        "outgoing": 89765
+      },
+      "Shiraz": {
+        "incoming": 79456,
+        "outgoing": 56987
+      },
+      "Qom": {
+        "incoming": 55012,
+        "outgoing": 34567
+      },
+      "Ahvaz": {
+        "incoming": 40345,
+        "outgoing": 45456
+      },
+      "Rasht": {
+        "incoming": 42012,
+        "outgoing": 14987
+      },
+      "Semnan": {
+        "incoming": 24567,
+        "outgoing": 7912
+      },
+      "Arak": {
+        "incoming": 20345,
+        "outgoing": 25456
+      },
+      "Zahedan": {
+        "incoming": 21234,
+        "outgoing": 26456
+      },
+      "Kermanshah": {
+        "incoming": 37876,
+        "outgoing": 36789
+      },
+      "Hamedan": {
+        "incoming": 30345,
+        "outgoing": 21678
+      },
+      "Yazd": {
+        "incoming": 31234,
+        "outgoing": 18987
+      },
+      "Bandar Abbas": {
+        "incoming": 42012,
+        "outgoing": 28987
+      },
+      "Urmia": {
+        "incoming": 26456,
+        "outgoing": 19234
+      },
+      "Ardabil": {
+        "incoming": 24567,
+        "outgoing": 16789
+      },
+      "Zanjan": {
+        "incoming": 21234,
+        "outgoing": 13678
+      },
+      "Sanandaj": {
+        "incoming": 27876,
+        "outgoing": 21678
+      },
+      "Shahrekord": {
+        "incoming": 20345,
+        "outgoing": 12567
+      },
+      "Ilam": {
+        "incoming": 12567,
+        "outgoing": 10456
+      },
+      "Bojnurd": {
+        "incoming": 15678,
+        "outgoing": 15678
+      },
+      "Birjand": {
+        "incoming": 17678,
+        "outgoing": 14678
+      },
+      "Sari": {
+        "incoming": 13678,
+        "outgoing": 14678
+      },
+      "Kerman": {
+        "incoming": 21678,
+        "outgoing": 20678
+      },
+      "Gorgan": {
+        "incoming": 19678,
+        "outgoing": 17678
+      },
+      "Khorramabad": {
+        "incoming": 13678,
+        "outgoing": 24567
+      },
+      "Qazvin": {
+        "incoming": 19678,
+        "outgoing": 31234
+      },
+      "Yasuj": {
+        "incoming": 14678,
+        "outgoing": 12567
+      },
+      "Bushehr": {
+        "incoming": 18987,
+        "outgoing": 14678
+      }
+    },
+    "1387": {
+      "Tehran": {
+        "incoming": 340123,
+        "outgoing": 311234
+      },
+      "Karaj": {
+        "incoming": 106789,
+        "outgoing": 66789
+      },
+      "Tabriz": {
+        "incoming": 37012,
+        "outgoing": 57234
+      },
+      "Isfahan": {
+        "incoming": 69789,
+        "outgoing": 84567
+      },
+      "Mashhad": {
+        "incoming": 111234,
+        "outgoing": 90234
+      },
+      "Shiraz": {
+        "incoming": 79789,
+        "outgoing": 57234
+      },
+      "Qom": {
+        "incoming": 55234,
+        "outgoing": 34789
+      },
+      "Ahvaz": {
+        "incoming": 40567,
+        "outgoing": 45678
+      },
+      "Rasht": {
+        "incoming": 42234,
+        "outgoing": 15234
+      },
+      "Semnan": {
+        "incoming": 24789,
+        "outgoing": 8034
+      },
+      "Arak": {
+        "incoming": 20567,
+        "outgoing": 25678
+      },
+      "Zahedan": {
+        "incoming": 21456,
+        "outgoing": 26678
+      },
+      "Kermanshah": {
+        "incoming": 38123,
+        "outgoing": 37012
+      },
+      "Hamedan": {
+        "incoming": 30567,
+        "outgoing": 21890
+      },
+      "Yazd": {
+        "incoming": 31456,
+        "outgoing": 19234
+      },
+      "Bandar Abbas": {
+        "incoming": 42234,
+        "outgoing": 29234
+      },
+      "Urmia": {
+        "incoming": 26678,
+        "outgoing": 19456
+      },
+      "Ardabil": {
+        "incoming": 24789,
+        "outgoing": 16987
+      },
+      "Zanjan": {
+        "incoming": 21456,
+        "outgoing": 13890
+      },
+      "Sanandaj": {
+        "incoming": 28123,
+        "outgoing": 21890
+      },
+      "Shahrekord": {
+        "incoming": 20567,
+        "outgoing": 12789
+      },
+      "Ilam": {
+        "incoming": 12789,
+        "outgoing": 10678
+      },
+      "Bojnurd": {
+        "incoming": 15890,
+        "outgoing": 15890
+      },
+      "Birjand": {
+        "incoming": 17890,
+        "outgoing": 14890
+      },
+      "Sari": {
+        "incoming": 13890,
+        "outgoing": 14890
+      },
+      "Kerman": {
+        "incoming": 21890,
+        "outgoing": 20890
+      },
+      "Gorgan": {
+        "incoming": 19890,
+        "outgoing": 17890
+      },
+      "Khorramabad": {
+        "incoming": 13890,
+        "outgoing": 24789
+      },
+      "Qazvin": {
+        "incoming": 19890,
+        "outgoing": 31456
+      },
+      "Yasuj": {
+        "incoming": 14890,
+        "outgoing": 12789
+      },
+      "Bushehr": {
+        "incoming": 19234,
+        "outgoing": 14890
+      }
+    },
+    "1388": {
+      "Tehran": {
+        "incoming": 342456,
+        "outgoing": 313456
+      },
+      "Karaj": {
+        "incoming": 107890,
+        "outgoing": 67890
+      },
+      "Tabriz": {
+        "incoming": 37234,
+        "outgoing": 57456
+      },
+      "Isfahan": {
+        "incoming": 70123,
+        "outgoing": 85123
+      },
+      "Mashhad": {
+        "incoming": 111789,
+        "outgoing": 90789
+      },
+      "Shiraz": {
+        "incoming": 80123,
+        "outgoing": 57456
+      },
+      "Qom": {
+        "incoming": 55456,
+        "outgoing": 35012
+      },
+      "Ahvaz": {
+        "incoming": 40789,
+        "outgoing": 45890
+      },
+      "Rasht": {
+        "incoming": 42456,
+        "outgoing": 15456
+      },
+      "Semnan": {
+        "incoming": 25012,
+        "outgoing": 8156
+      },
+      "Arak": {
+        "incoming": 20789,
+        "outgoing": 25890
+      },
+      "Zahedan": {
+        "incoming": 21678,
+        "outgoing": 26890
+      },
+      "Kermanshah": {
+        "incoming": 38345,
+        "outgoing": 37234
+      },
+      "Hamedan": {
+        "incoming": 30789,
+        "outgoing": 22123
+      },
+      "Yazd": {
+        "incoming": 31678,
+        "outgoing": 19456
+      },
+      "Bandar Abbas": {
+        "incoming": 42456,
+        "outgoing": 29456
+      },
+      "Urmia": {
+        "incoming": 26890,
+        "outgoing": 19678
+      },
+      "Ardabil": {
+        "incoming": 25012,
+        "outgoing": 17234
+      },
+      "Zanjan": {
+        "incoming": 21678,
+        "outgoing": 14123
+      },
+      "Sanandaj": {
+        "incoming": 28345,
+        "outgoing": 22123
+      },
+      "Shahrekord": {
+        "incoming": 20789,
+        "outgoing": 12987
+      },
+      "Ilam": {
+        "incoming": 12987,
+        "outgoing": 10890
+      },
+      "Bojnurd": {
+        "incoming": 16123,
+        "outgoing": 16123
+      },
+      "Birjand": {
+        "incoming": 18123,
+        "outgoing": 15123
+      },
+      "Sari": {
+        "incoming": 14123,
+        "outgoing": 15123
+      },
+      "Kerman": {
+        "incoming": 22123,
+        "outgoing": 21123
+      },
+      "Gorgan": {
+        "incoming": 20123,
+        "outgoing": 18123
+      },
+      "Khorramabad": {
+        "incoming": 14123,
+        "outgoing": 25012
+      },
+      "Qazvin": {
+        "incoming": 20123,
+        "outgoing": 31678
+      },
+      "Yasuj": {
+        "incoming": 15123,
+        "outgoing": 12987
+      },
+      "Bushehr": {
+        "incoming": 19456,
+        "outgoing": 15123
+      }
+    },
+    "1389": {
+      "Tehran": {
+        "incoming": 344789,
+        "outgoing": 315678
+      },
+      "Karaj": {
+        "incoming": 109012,
+        "outgoing": 68901
+      },
+      "Tabriz": {
+        "incoming": 37456,
+        "outgoing": 57678
+      },
+      "Isfahan": {
+        "incoming": 70456,
+        "outgoing": 85678
+      },
+      "Mashhad": {
+        "incoming": 112345,
+        "outgoing": 91345
+      },
+      "Shiraz": {
+        "incoming": 80456,
+        "outgoing": 57678
+      },
+      "Qom": {
+        "incoming": 55678,
+        "outgoing": 35234
+      },
+      "Ahvaz": {
+        "incoming": 41012,
+        "outgoing": 46123
+      },
+      "Rasht": {
+        "incoming": 42678,
+        "outgoing": 15678
+      },
+      "Semnan": {
+        "incoming": 25234,
+        "outgoing": 8278
+      },
+      "Arak": {
+        "incoming": 21012,
+        "outgoing": 26123
+      },
+      "Zahedan": {
+        "incoming": 21890,
+        "outgoing": 27123
+      },
+      "Kermanshah": {
+        "incoming": 38567,
+        "outgoing": 37456
+      },
+      "Hamedan": {
+        "incoming": 31012,
+        "outgoing": 22345
+      },
+      "Yazd": {
+        "incoming": 31890,
+        "outgoing": 19678
+      },
+      "Bandar Abbas": {
+        "incoming": 42678,
+        "outgoing": 29678
+      },
+      "Urmia": {
+        "incoming": 27123,
+        "outgoing": 19890
+      },
+      "Ardabil": {
+        "incoming": 25234,
+        "outgoing": 17456
+      },
+      "Zanjan": {
+        "incoming": 21890,
+        "outgoing": 14345
+      },
+      "Sanandaj": {
+        "incoming": 28567,
+        "outgoing": 22345
+      },
+      "Shahrekord": {
+        "incoming": 21012,
+        "outgoing": 13234
+      },
+      "Ilam": {
+        "incoming": 13234,
+        "outgoing": 11123
+      },
+      "Bojnurd": {
+        "incoming": 16345,
+        "outgoing": 16345
+      },
+      "Birjand": {
+        "incoming": 18345,
+        "outgoing": 15345
+      },
+      "Sari": {
+        "incoming": 14345,
+        "outgoing": 15345
+      },
+      "Kerman": {
+        "incoming": 22345,
+        "outgoing": 21345
+      },
+      "Gorgan": {
+        "incoming": 20345,
+        "outgoing": 18345
+      },
+      "Khorramabad": {
+        "incoming": 14345,
+        "outgoing": 25234
+      },
+      "Qazvin": {
+        "incoming": 20345,
+        "outgoing": 31890
+      },
+      "Yasuj": {
+        "incoming": 15345,
+        "outgoing": 13234
+      },
+      "Bushehr": {
+        "incoming": 19678,
+        "outgoing": 15345
+      }
+    },
+    "1390": {
+      "Tehran": {
+        "incoming": 347890,
+        "outgoing": 318901
+      },
+      "Karaj": {
+        "incoming": 110123,
+        "outgoing": 70123
+      },
+      "Tabriz": {
+        "incoming": 37678,
+        "outgoing": 57890
+      },
+      "Isfahan": {
+        "incoming": 70789,
+        "outgoing": 86123
+      },
+      "Mashhad": {
+        "incoming": 112890,
+        "outgoing": 91890
+      },
+      "Shiraz": {
+        "incoming": 80789,
+        "outgoing": 57890
+      },
+      "Qom": {
+        "incoming": 55901,
+        "outgoing": 35456
+      },
+      "Ahvaz": {
+        "incoming": 41234,
+        "outgoing": 46345
+      },
+      "Rasht": {
+        "incoming": 42901,
+        "outgoing": 15890
+      },
+      "Semnan": {
+        "incoming": 25456,
+        "outgoing": 8401
+      },
+      "Arak": {
+        "incoming": 21234,
+        "outgoing": 26345
+      },
+      "Zahedan": {
+        "incoming": 22123,
+        "outgoing": 27345
+      },
+      "Kermanshah": {
+        "incoming": 38789,
+        "outgoing": 37678
+      },
+      "Hamedan": {
+        "incoming": 31234,
+        "outgoing": 22567
+      },
+      "Yazd": {
+        "incoming": 32123,
+        "outgoing": 19890
+      },
+      "Bandar Abbas": {
+        "incoming": 42901,
+        "outgoing": 29890
+      },
+      "Urmia": {
+        "incoming": 27345,
+        "outgoing": 20123
+      },
+      "Ardabil": {
+        "incoming": 25456,
+        "outgoing": 17678
+      },
+      "Zanjan": {
+        "incoming": 22123,
+        "outgoing": 14567
+      },
+      "Sanandaj": {
+        "incoming": 28789,
+        "outgoing": 22567
+      },
+      "Shahrekord": {
+        "incoming": 21234,
+        "outgoing": 13456
+      },
+      "Ilam": {
+        "incoming": 13456,
+        "outgoing": 11345
+      },
+      "Bojnurd": {
+        "incoming": 16567,
+        "outgoing": 16567
+      },
+      "Birjand": {
+        "incoming": 18567,
+        "outgoing": 15567
+      },
+      "Sari": {
+        "incoming": 14567,
+        "outgoing": 15567
+      },
+      "Kerman": {
+        "incoming": 22567,
+        "outgoing": 21567
+      },
+      "Gorgan": {
+        "incoming": 20567,
+        "outgoing": 18567
+      },
+      "Khorramabad": {
+        "incoming": 14567,
+        "outgoing": 25456
+      },
+      "Qazvin": {
+        "incoming": 20567,
+        "outgoing": 32123
+      },
+      "Yasuj": {
+        "incoming": 15567,
+        "outgoing": 13456
+      },
+      "Bushehr": {
+        "incoming": 19890,
+        "outgoing": 15567
+      }
+    },
+    "1391": {
+      "Tehran": {
+        "incoming": 350123,
+        "outgoing": 321234
+      },
+      "Karaj": {
+        "incoming": 111234,
+        "outgoing": 71234
+      },
+      "Tabriz": {
+        "incoming": 37890,
+        "outgoing": 58123
+      },
+      "Isfahan": {
+        "incoming": 71123,
+        "outgoing": 86678
+      },
+      "Mashhad": {
+        "incoming": 113456,
+        "outgoing": 92345
+      },
+      "Shiraz": {
+        "incoming": 81123,
+        "outgoing": 58123
+      },
+      "Qom": {
+        "incoming": 56123,
+        "outgoing": 35678
+      },
+      "Ahvaz": {
+        "incoming": 41456,
+        "outgoing": 46567
+      },
+      "Rasht": {
+        "incoming": 43123,
+        "outgoing": 16123
+      },
+      "Semnan": {
+        "incoming": 25678,
+        "outgoing": 8523
+      },
+      "Arak": {
+        "incoming": 21456,
+        "outgoing": 26567
+      },
+      "Zahedan": {
+        "incoming": 22345,
+        "outgoing": 27567
+      },
+      "Kermanshah": {
+        "incoming": 39012,
+        "outgoing": 37890
+      },
+      "Hamedan": {
+        "incoming": 31456,
+        "outgoing": 22789
+      },
+      "Yazd": {
+        "incoming": 32345,
+        "outgoing": 20123
+      },
+      "Bandar Abbas": {
+        "incoming": 43123,
+        "outgoing": 30123
+      },
+      "Urmia": {
+        "incoming": 27567,
+        "outgoing": 20345
+      },
+      "Ardabil": {
+        "incoming": 25678,
+        "outgoing": 17890
+      },
+      "Zanjan": {
+        "incoming": 22345,
+        "outgoing": 14789
+      },
+      "Sanandaj": {
+        "incoming": 29012,
+        "outgoing": 22789
+      },
+      "Shahrekord": {
+        "incoming": 21456,
+        "outgoing": 13678
+      },
+      "Ilam": {
+        "incoming": 13678,
+        "outgoing": 11567
+      },
+      "Bojnurd": {
+        "incoming": 16789,
+        "outgoing": 16789
+      },
+      "Birjand": {
+        "incoming": 18789,
+        "outgoing": 15789
+      },
+      "Sari": {
+        "incoming": 14789,
+        "outgoing": 15789
+      },
+      "Kerman": {
+        "incoming": 22789,
+        "outgoing": 21789
+      },
+      "Gorgan": {
+        "incoming": 20789,
+        "outgoing": 18789
+      },
+      "Khorramabad": {
+        "incoming": 14789,
+        "outgoing": 25678
+      },
+      "Qazvin": {
+        "incoming": 20789,
+        "outgoing": 32345
+      },
+      "Yasuj": {
+        "incoming": 15789,
+        "outgoing": 13678
+      },
+      "Bushehr": {
+        "incoming": 20123,
+        "outgoing": 15789
+      }
+    },
+    "1392": {
+      "Tehran": {
+        "incoming": 352456,
+        "outgoing": 323456
+      },
+      "Karaj": {
+        "incoming": 112345,
+        "outgoing": 72345
+      },
+      "Tabriz": {
+        "incoming": 38123,
+        "outgoing": 58345
+      },
+      "Isfahan": {
+        "incoming": 71456,
+        "outgoing": 87234
+      },
+      "Mashhad": {
+        "incoming": 114567,
+        "outgoing": 92890
+      },
+      "Shiraz": {
+        "incoming": 81456,
+        "outgoing": 58345
+      },
+      "Qom": {
+        "incoming": 56345,
+        "outgoing": 35890
+      },
+      "Ahvaz": {
+        "incoming": 41678,
+        "outgoing": 46789
+      },
+      "Rasht": {
+        "incoming": 43345,
+        "outgoing": 16345
+      },
+      "Semnan": {
+        "incoming": 25890,
+        "outgoing": 8645
+      },
+      "Arak": {
+        "incoming": 21678,
+        "outgoing": 26789
+      },
+      "Zahedan": {
+        "incoming": 22567,
+        "outgoing": 27789
+      },
+      "Kermanshah": {
+        "incoming": 39234,
+        "outgoing": 38123
+      },
+      "Hamedan": {
+        "incoming": 31678,
+        "outgoing": 23012
+      },
+      "Yazd": {
+        "incoming": 32567,
+        "outgoing": 20345
+      },
+      "Bandar Abbas": {
+        "incoming": 43345,
+        "outgoing": 30345
+      },
+      "Urmia": {
+        "incoming": 27789,
+        "outgoing": 20567
+      },
+      "Ardabil": {
+        "incoming": 25890,
+        "outgoing": 18123
+      },
+      "Zanjan": {
+        "incoming": 22567,
+        "outgoing": 15012
+      },
+      "Sanandaj": {
+        "incoming": 29234,
+        "outgoing": 23012
+      },
+      "Shahrekord": {
+        "incoming": 21678,
+        "outgoing": 13890
+      },
+      "Ilam": {
+        "incoming": 13890,
+        "outgoing": 11789
+      },
+      "Bojnurd": {
+        "incoming": 17012,
+        "outgoing": 17012
+      },
+      "Birjand": {
+        "incoming": 19012,
+        "outgoing": 16012
+      },
+      "Sari": {
+        "incoming": 15012,
+        "outgoing": 16012
+      },
+      "Kerman": {
+        "incoming": 23012,
+        "outgoing": 22012
+      },
+      "Gorgan": {
+        "incoming": 21012,
+        "outgoing": 19012
+      },
+      "Khorramabad": {
+        "incoming": 15012,
+        "outgoing": 25890
+      },
+      "Qazvin": {
+        "incoming": 21012,
+        "outgoing": 32567
+      },
+      "Yasuj": {
+        "incoming": 16012,
+        "outgoing": 13890
+      },
+      "Bushehr": {
+        "incoming": 20345,
+        "outgoing": 16012
+      }
+    },
+    "1393": {
+      "Tehran": {
+        "incoming": 354789,
+        "outgoing": 325678
+      },
+      "Karaj": {
+        "incoming": 113456,
+        "outgoing": 73456
+      },
+      "Tabriz": {
+        "incoming": 38345,
+        "outgoing": 58567
+      },
+      "Isfahan": {
+        "incoming": 71789,
+        "outgoing": 87789
+      },
+      "Mashhad": {
+        "incoming": 115678,
+        "outgoing": 93456
+      },
+      "Shiraz": {
+        "incoming": 81789,
+        "outgoing": 58567
+      },
+      "Qom": {
+        "incoming": 56567,
+        "outgoing": 36123
+      },
+      "Ahvaz": {
+        "incoming": 41890,
+        "outgoing": 47012
+      },
+      "Rasht": {
+        "incoming": 43567,
+        "outgoing": 16567
+      },
+      "Semnan": {
+        "incoming": 26123,
+        "outgoing": 8767
+      },
+      "Arak": {
+        "incoming": 21890,
+        "outgoing": 27012
+      },
+      "Zahedan": {
+        "incoming": 22789,
+        "outgoing": 28012
+      },
+      "Kermanshah": {
+        "incoming": 39456,
+        "outgoing": 38345
+      },
+      "Hamedan": {
+        "incoming": 31890,
+        "outgoing": 23234
+      },
+      "Yazd": {
+        "incoming": 32789,
+        "outgoing": 20567
+      },
+      "Bandar Abbas": {
+        "incoming": 43567,
+        "outgoing": 30567
+      },
+      "Urmia": {
+        "incoming": 28012,
+        "outgoing": 20789
+      },
+      "Ardabil": {
+        "incoming": 26123,
+        "outgoing": 18345
+      },
+      "Zanjan": {
+        "incoming": 22789,
+        "outgoing": 15234
+      },
+      "Sanandaj": {
+        "incoming": 29456,
+        "outgoing": 23234
+      },
+      "Shahrekord": {
+        "incoming": 21890,
+        "outgoing": 14123
+      },
+      "Ilam": {
+        "incoming": 14123,
+        "outgoing": 12012
+      },
+      "Bojnurd": {
+        "incoming": 17234,
+        "outgoing": 17234
+      },
+      "Birjand": {
+        "incoming": 19234,
+        "outgoing": 16234
+      },
+      "Sari": {
+        "incoming": 15234,
+        "outgoing": 16234
+      },
+      "Kerman": {
+        "incoming": 23234,
+        "outgoing": 22234
+      },
+      "Gorgan": {
+        "incoming": 21234,
+        "outgoing": 19234
+      },
+      "Khorramabad": {
+        "incoming": 15234,
+        "outgoing": 26123
+      },
+      "Qazvin": {
+        "incoming": 21234,
+        "outgoing": 32789
+      },
+      "Yasuj": {
+        "incoming": 16234,
+        "outgoing": 14123
+      },
+      "Bushehr": {
+        "incoming": 20567,
+        "outgoing": 16234
+      }
+    },
+    "1394": {
+      "Tehran": {
+        "incoming": 357012,
+        "outgoing": 327890
+      },
+      "Karaj": {
+        "incoming": 114567,
+        "outgoing": 74567
+      },
+      "Tabriz": {
+        "incoming": 38567,
+        "outgoing": 58789
+      },
+      "Isfahan": {
+        "incoming": 72123,
+        "outgoing": 88345
+      },
+      "Mashhad": {
+        "incoming": 116789,
+        "outgoing": 94012
+      },
+      "Shiraz": {
+        "incoming": 82123,
+        "outgoing": 58789
+      },
+      "Qom": {
+        "incoming": 56789,
+        "outgoing": 36345
+      },
+      "Ahvaz": {
+        "incoming": 42123,
+        "outgoing": 47234
+      },
+      "Rasht": {
+        "incoming": 43789,
+        "outgoing": 16789
+      },
+      "Semnan": {
+        "incoming": 26345,
+        "outgoing": 8890
+      },
+      "Arak": {
+        "incoming": 22123,
+        "outgoing": 27234
+      },
+      "Zahedan": {
+        "incoming": 23012,
+        "outgoing": 28234
+      },
+      "Kermanshah": {
+        "incoming": 39678,
+        "outgoing": 38567
+      },
+      "Hamedan": {
+        "incoming": 32123,
+        "outgoing": 23456
+      },
+      "Yazd": {
+        "incoming": 33012,
+        "outgoing": 20789
+      },
+      "Bandar Abbas": {
+        "incoming": 43789,
+        "outgoing": 30789
+      },
+      "Urmia": {
+        "incoming": 28234,
+        "outgoing": 21012
+      },
+      "Ardabil": {
+        "incoming": 26345,
+        "outgoing": 18567
+      },
+      "Zanjan": {
+        "incoming": 23012,
+        "outgoing": 15456
+      },
+      "Sanandaj": {
+        "incoming": 29678,
+        "outgoing": 23456
+      },
+      "Shahrekord": {
+        "incoming": 22123,
+        "outgoing": 14345
+      },
+      "Ilam": {
+        "incoming": 14345,
+        "outgoing": 12234
+      },
+      "Bojnurd": {
+        "incoming": 17456,
+        "outgoing": 17456
+      },
+      "Birjand": {
+        "incoming": 19456,
+        "outgoing": 16456
+      },
+      "Sari": {
+        "incoming": 15456,
+        "outgoing": 16456
+      },
+      "Kerman": {
+        "incoming": 23456,
+        "outgoing": 22456
+      },
+      "Gorgan": {
+        "incoming": 21456,
+        "outgoing": 19456
+      },
+      "Khorramabad": {
+        "incoming": 15456,
+        "outgoing": 26345
+      },
+      "Qazvin": {
+        "incoming": 21456,
+        "outgoing": 33012
+      },
+      "Yasuj": {
+        "incoming": 16456,
+        "outgoing": 14345
+      },
+      "Bushehr": {
+        "incoming": 20789,
+        "outgoing": 16456
+      }
+    },
+    "1395": {
+      "Tehran": {
+        "incoming": 359234,
+        "outgoing": 330123
+      },
+      "Karaj": {
+        "incoming": 115678,
+        "outgoing": 75678
+      },
+      "Tabriz": {
+        "incoming": 38789,
+        "outgoing": 59012
+      },
+      "Isfahan": {
+        "incoming": 72456,
+        "outgoing": 88901
+      },
+      "Mashhad": {
+        "incoming": 117890,
+        "outgoing": 94567
+      },
+      "Shiraz": {
+        "incoming": 82456,
+        "outgoing": 59012
+      },
+      "Qom": {
+        "incoming": 57012,
+        "outgoing": 36567
+      },
+      "Ahvaz": {
+        "incoming": 42345,
+        "outgoing": 47456
+      },
+      "Rasht": {
+        "incoming": 44012,
+        "outgoing": 17012
+      },
+      "Semnan": {
+        "incoming": 26567,
+        "outgoing": 9012
+      },
+      "Arak": {
+        "incoming": 22345,
+        "outgoing": 27456
+      },
+      "Zahedan": {
+        "incoming": 23234,
+        "outgoing": 28456
+      },
+      "Kermanshah": {
+        "incoming": 39890,
+        "outgoing": 38789
+      },
+      "Hamedan": {
+        "incoming": 32345,
+        "outgoing": 23678
+      },
+      "Yazd": {
+        "incoming": 33234,
+        "outgoing": 21012
+      },
+      "Bandar Abbas": {
+        "incoming": 44012,
+        "outgoing": 31012
+      },
+      "Urmia": {
+        "incoming": 28456,
+        "outgoing": 21234
+      },
+      "Ardabil": {
+        "incoming": 26567,
+        "outgoing": 18789
+      },
+      "Zanjan": {
+        "incoming": 23234,
+        "outgoing": 15678
+      },
+      "Sanandaj": {
+        "incoming": 29890,
+        "outgoing": 23678
+      },
+      "Shahrekord": {
+        "incoming": 22345,
+        "outgoing": 14567
+      },
+      "Ilam": {
+        "incoming": 14567,
+        "outgoing": 12456
+      },
+      "Bojnurd": {
+        "incoming": 17678,
+        "outgoing": 17678
+      },
+      "Birjand": {
+        "incoming": 19678,
+        "outgoing": 16678
+      },
+      "Sari": {
+        "incoming": 15678,
+        "outgoing": 16678
+      },
+      "Kerman": {
+        "incoming": 23678,
+        "outgoing": 22678
+      },
+      "Gorgan": {
+        "incoming": 21678,
+        "outgoing": 19678
+      },
+      "Khorramabad": {
+        "incoming": 15678,
+        "outgoing": 26567
+      },
+      "Qazvin": {
+        "incoming": 21678,
+        "outgoing": 33234
+      },
+      "Yasuj": {
+        "incoming": 16678,
+        "outgoing": 14567
+      },
+      "Bushehr": {
+        "incoming": 21012,
+        "outgoing": 16678
+      }
+    },
+    "1396": {
+      "Tehran": {
+        "incoming": 361456,
+        "outgoing": 332345
+      },
+      "Karaj": {
+        "incoming": 116789,
+        "outgoing": 76789
+      },
+      "Tabriz": {
+        "incoming": 39012,
+        "outgoing": 59234
+      },
+      "Isfahan": {
+        "incoming": 72789,
+        "outgoing": 89456
+      },
+      "Mashhad": {
+        "incoming": 118901,
+        "outgoing": 95123
+      },
+      "Shiraz": {
+        "incoming": 82789,
+        "outgoing": 59234
+      },
+      "Qom": {
+        "incoming": 57234,
+        "outgoing": 36789
+      },
+      "Ahvaz": {
+        "incoming": 42567,
+        "outgoing": 47678
+      },
+      "Rasht": {
+        "incoming": 44234,
+        "outgoing": 17234
+      },
+      "Semnan": {
+        "incoming": 26789,
+        "outgoing": 9123
+      },
+      "Arak": {
+        "incoming": 22567,
+        "outgoing": 27678
+      },
+      "Zahedan": {
+        "incoming": 23456,
+        "outgoing": 28678
+      },
+      "Kermanshah": {
+        "incoming": 40123,
+        "outgoing": 39012
+      },
+      "Hamedan": {
+        "incoming": 32567,
+        "outgoing": 23890
+      },
+      "Yazd": {
+        "incoming": 33456,
+        "outgoing": 21234
+      },
+      "Bandar Abbas": {
+        "incoming": 44234,
+        "outgoing": 31234
+      },
+      "Urmia": {
+        "incoming": 28678,
+        "outgoing": 21456
+      },
+      "Ardabil": {
+        "incoming": 26789,
+        "outgoing": 19012
+      },
+      "Zanjan": {
+        "incoming": 23456,
+        "outgoing": 15890
+      },
+      "Sanandaj": {
+        "incoming": 30123,
+        "outgoing": 23890
+      },
+      "Shahrekord": {
+        "incoming": 22567,
+        "outgoing": 14789
+      },
+      "Ilam": {
+        "incoming": 14789,
+        "outgoing": 12678
+      },
+      "Bojnurd": {
+        "incoming": 17890,
+        "outgoing": 17890
+      },
+      "Birjand": {
+        "incoming": 19890,
+        "outgoing": 16890
+      },
+      "Sari": {
+        "incoming": 15890,
+        "outgoing": 16890
+      },
+      "Kerman": {
+        "incoming": 23890,
+        "outgoing": 22890
+      },
+      "Gorgan": {
+        "incoming": 21890,
+        "outgoing": 19890
+      },
+      "Khorramabad": {
+        "incoming": 15890,
+        "outgoing": 26789
+      },
+      "Qazvin": {
+        "incoming": 21890,
+        "outgoing": 33456
+      },
+      "Yasuj": {
+        "incoming": 16890,
+        "outgoing": 14789
+      },
+      "Bushehr": {
+        "incoming": 21234,
+        "outgoing": 16890
+      }
+    },
+    "1397": {
+      "Tehran": {
+        "incoming": 363567,
+        "outgoing": 334456
+      },
+      "Karaj": {
+        "incoming": 117890,
+        "outgoing": 77890
+      },
+      "Tabriz": {
+        "incoming": 39234,
+        "outgoing": 59456
+      },
+      "Isfahan": {
+        "incoming": 73123,
+        "outgoing": 89901
+      },
+      "Mashhad": {
+        "incoming": 119012,
+        "outgoing": 95678
+      },
+      "Shiraz": {
+        "incoming": 83123,
+        "outgoing": 59456
+      },
+      "Qom": {
+        "incoming": 57456,
+        "outgoing": 37012
+      },
+      "Ahvaz": {
+        "incoming": 42789,
+        "outgoing": 47890
+      },
+      "Rasht": {
+        "incoming": 44456,
+        "outgoing": 17456
+      },
+      "Semnan": {
+        "incoming": 27012,
+        "outgoing": 9234
+      },
+      "Arak": {
+        "incoming": 22789,
+        "outgoing": 27890
+      },
+      "Zahedan": {
+        "incoming": 23678,
+        "outgoing": 28890
+      },
+      "Kermanshah": {
+        "incoming": 40345,
+        "outgoing": 39234
+      },
+      "Hamedan": {
+        "incoming": 32789,
+        "outgoing": 24123
+      },
+      "Yazd": {
+        "incoming": 33678,
+        "outgoing": 21456
+      },
+      "Bandar Abbas": {
+        "incoming": 44456,
+        "outgoing": 31456
+      },
+      "Urmia": {
+        "incoming": 28890,
+        "outgoing": 21678
+      },
+      "Ardabil": {
+        "incoming": 27012,
+        "outgoing": 19234
+      },
+      "Zanjan": {
+        "incoming": 23678,
+        "outgoing": 16123
+      },
+      "Sanandaj": {
+        "incoming": 30345,
+        "outgoing": 24123
+      },
+      "Shahrekord": {
+        "incoming": 22789,
+        "outgoing": 15012
+      },
+      "Ilam": {
+        "incoming": 15012,
+        "outgoing": 12890
+      },
+      "Bojnurd": {
+        "incoming": 18123,
+        "outgoing": 18123
+      },
+      "Birjand": {
+        "incoming": 20123,
+        "outgoing": 17123
+      },
+      "Sari": {
+        "incoming": 16123,
+        "outgoing": 17123
+      },
+      "Kerman": {
+        "incoming": 24123,
+        "outgoing": 23123
+      },
+      "Gorgan": {
+        "incoming": 22123,
+        "outgoing": 20123
+      },
+      "Khorramabad": {
+        "incoming": 16123,
+        "outgoing": 27012
+      },
+      "Qazvin": {
+        "incoming": 22123,
+        "outgoing": 33678
+      },
+      "Yasuj": {
+        "incoming": 17123,
+        "outgoing": 15012
+      },
+      "Bushehr": {
+        "incoming": 21456,
+        "outgoing": 17123
+      }
+    },
+    "1398": {
+      "Tehran": {
+        "incoming": 365678,
+        "outgoing": 336567
+      },
+      "Karaj": {
+        "incoming": 119012,
+        "outgoing": 78901
+      },
+      "Tabriz": {
+        "incoming": 39456,
+        "outgoing": 59678
+      },
+      "Isfahan": {
+        "incoming": 73456,
+        "outgoing": 90456
+      },
+      "Mashhad": {
+        "incoming": 120123,
+        "outgoing": 96234
+      },
+      "Shiraz": {
+        "incoming": 83456,
+        "outgoing": 59678
+      },
+      "Qom": {
+        "incoming": 57678,
+        "outgoing": 37234
+      },
+      "Ahvaz": {
+        "incoming": 43012,
+        "outgoing": 48123
+      },
+      "Rasht": {
+        "incoming": 44678,
+        "outgoing": 17678
+      },
+      "Semnan": {
+        "incoming": 27234,
+        "outgoing": 9345
+      },
+      "Arak": {
+        "incoming": 23012,
+        "outgoing": 28123
+      },
+      "Zahedan": {
+        "incoming": 23890,
+        "outgoing": 29123
+      },
+      "Kermanshah": {
+        "incoming": 40567,
+        "outgoing": 39456
+      },
+      "Hamedan": {
+        "incoming": 33012,
+        "outgoing": 24345
+      },
+      "Yazd": {
+        "incoming": 33890,
+        "outgoing": 21678
+      },
+      "Bandar Abbas": {
+        "incoming": 44678,
+        "outgoing": 31678
+      },
+      "Urmia": {
+        "incoming": 29123,
+        "outgoing": 21890
+      },
+      "Ardabil": {
+        "incoming": 27234,
+        "outgoing": 19456
+      },
+      "Zanjan": {
+        "incoming": 23890,
+        "outgoing": 16345
+      },
+      "Sanandaj": {
+        "incoming": 30567,
+        "outgoing": 24345
+      },
+      "Shahrekord": {
+        "incoming": 23012,
+        "outgoing": 15234
+      },
+      "Ilam": {
+        "incoming": 15234,
+        "outgoing": 13123
+      },
+      "Bojnurd": {
+        "incoming": 18345,
+        "outgoing": 18345
+      },
+      "Birjand": {
+        "incoming": 20345,
+        "outgoing": 17345
+      },
+      "Sari": {
+        "incoming": 16345,
+        "outgoing": 17345
+      },
+      "Kerman": {
+        "incoming": 24345,
+        "outgoing": 23345
+      },
+      "Gorgan": {
+        "incoming": 22345,
+        "outgoing": 20345
+      },
+      "Khorramabad": {
+        "incoming": 16345,
+        "outgoing": 27234
+      },
+      "Qazvin": {
+        "incoming": 22345,
+        "outgoing": 33890
+      },
+      "Yasuj": {
+        "incoming": 17345,
+        "outgoing": 15234
+      },
+      "Bushehr": {
+        "incoming": 21678,
+        "outgoing": 17345
+      }
+    },
+    "1399": {
+      "Tehran": {
+        "incoming": 367890,
+        "outgoing": 338901
+      },
+      "Karaj": {
+        "incoming": 120123,
+        "outgoing": 80123
+      },
+      "Tabriz": {
+        "incoming": 39678,
+        "outgoing": 59890
+      },
+      "Isfahan": {
+        "incoming": 73789,
+        "outgoing": 90901
+      },
+      "Mashhad": {
+        "incoming": 121234,
+        "outgoing": 96789
+      },
+      "Shiraz": {
+        "incoming": 83789,
+        "outgoing": 59890
+      },
+      "Qom": {
+        "incoming": 57890,
+        "outgoing": 37456
+      },
+      "Ahvaz": {
+        "incoming": 43234,
+        "outgoing": 48345
+      },
+      "Rasht": {
+        "incoming": 44890,
+        "outgoing": 17890
+      },
+      "Semnan": {
+        "incoming": 27456,
+        "outgoing": 9456
+      },
+      "Arak": {
+        "incoming": 23234,
+        "outgoing": 28345
+      },
+      "Zahedan": {
+        "incoming": 24123,
+        "outgoing": 29345
+      },
+      "Kermanshah": {
+        "incoming": 40789,
+        "outgoing": 39678
+      },
+      "Hamedan": {
+        "incoming": 33234,
+        "outgoing": 24567
+      },
+      "Yazd": {
+        "incoming": 34123,
+        "outgoing": 21890
+      },
+      "Bandar Abbas": {
+        "incoming": 44890,
+        "outgoing": 31890
+      },
+      "Urmia": {
+        "incoming": 29345,
+        "outgoing": 22123
+      },
+      "Ardabil": {
+        "incoming": 27456,
+        "outgoing": 19678
+      },
+      "Zanjan": {
+        "incoming": 24123,
+        "outgoing": 16567
+      },
+      "Sanandaj": {
+        "incoming": 30789,
+        "outgoing": 24567
+      },
+      "Shahrekord": {
+        "incoming": 23234,
+        "outgoing": 15456
+      },
+      "Ilam": {
+        "incoming": 15456,
+        "outgoing": 13345
+      },
+      "Bojnurd": {
+        "incoming": 18567,
+        "outgoing": 18567
+      },
+      "Birjand": {
+        "incoming": 20567,
+        "outgoing": 17567
+      },
+      "Sari": {
+        "incoming": 16567,
+        "outgoing": 17567
+      },
+      "Kerman": {
+        "incoming": 24567,
+        "outgoing": 23567
+      },
+      "Gorgan": {
+        "incoming": 22567,
+        "outgoing": 20567
+      },
+      "Khorramabad": {
+        "incoming": 16567,
+        "outgoing": 27456
+      },
+      "Qazvin": {
+        "incoming": 22567,
+        "outgoing": 34123
+      },
+      "Yasuj": {
+        "incoming": 17567,
+        "outgoing": 15456
+      },
+      "Bushehr": {
+        "incoming": 21890,
+        "outgoing": 17567
+      }
+    },
+    "1400": {
+      "Tehran": {
+        "incoming": 370123,
+        "outgoing": 341234
+      },
+      "Karaj": {
+        "incoming": 121234,
+        "outgoing": 81234
+      },
+      "Tabriz": {
+        "incoming": 39890,
+        "outgoing": 60123
+      },
+      "Isfahan": {
+        "incoming": 74123,
+        "outgoing": 91456
+      },
+      "Mashhad": {
+        "incoming": 122345,
+        "outgoing": 97345
+      },
+      "Shiraz": {
+        "incoming": 84123,
+        "outgoing": 60123
+      },
+      "Qom": {
+        "incoming": 58123,
+        "outgoing": 37678
+      },
+      "Ahvaz": {
+        "incoming": 43456,
+        "outgoing": 48567
+      },
+      "Rasht": {
+        "incoming": 45123,
+        "outgoing": 18123
+      },
+      "Semnan": {
+        "incoming": 27678,
+        "outgoing": 9567
+      },
+      "Arak": {
+        "incoming": 23456,
+        "outgoing": 28567
+      },
+      "Zahedan": {
+        "incoming": 24345,
+        "outgoing": 29567
+      },
+      "Kermanshah": {
+        "incoming": 41012,
+        "outgoing": 39890
+      },
+      "Hamedan": {
+        "incoming": 33456,
+        "outgoing": 24789
+      },
+      "Yazd": {
+        "incoming": 34345,
+        "outgoing": 22123
+      },
+      "Bandar Abbas": {
+        "incoming": 45123,
+        "outgoing": 32123
+      },
+      "Urmia": {
+        "incoming": 29567,
+        "outgoing": 22345
+      },
+      "Ardabil": {
+        "incoming": 27678,
+        "outgoing": 19890
+      },
+      "Zanjan": {
+        "incoming": 24345,
+        "outgoing": 16789
+      },
+      "Sanandaj": {
+        "incoming": 31012,
+        "outgoing": 24789
+      },
+      "Shahrekord": {
+        "incoming": 23456,
+        "outgoing": 15678
+      },
+      "Ilam": {
+        "incoming": 15678,
+        "outgoing": 13567
+      },
+      "Bojnurd": {
+        "incoming": 18789,
+        "outgoing": 18789
+      },
+      "Birjand": {
+        "incoming": 20789,
+        "outgoing": 17789
+      },
+      "Sari": {
+        "incoming": 16789,
+        "outgoing": 17789
+      },
+      "Kerman": {
+        "incoming": 24789,
+        "outgoing": 23789
+      },
+      "Gorgan": {
+        "incoming": 22789,
+        "outgoing": 20789
+      },
+      "Khorramabad": {
+        "incoming": 16789,
+        "outgoing": 27678
+      },
+      "Qazvin": {
+        "incoming": 22789,
+        "outgoing": 34345
+      },
+      "Yasuj": {
+        "incoming": 17789,
+        "outgoing": 15678
+      },
+      "Bushehr": {
+        "incoming": 22123,
+        "outgoing": 17789
+      }
+    },
+    "1401": {
+      "Tehran": {
+        "incoming": 372456,
+        "outgoing": 343456
+      },
+      "Karaj": {
+        "incoming": 122345,
+        "outgoing": 82345
+      },
+      "Tabriz": {
+        "incoming": 40123,
+        "outgoing": 60345
+      },
+      "Isfahan": {
+        "incoming": 74456,
+        "outgoing": 92012
+      },
+      "Mashhad": {
+        "incoming": 123456,
+        "outgoing": 97890
+      },
+      "Shiraz": {
+        "incoming": 84456,
+        "outgoing": 60345
+      },
+      "Qom": {
+        "incoming": 58345,
+        "outgoing": 37890
+      },
+      "Ahvaz": {
+        "incoming": 43678,
+        "outgoing": 48789
+      },
+      "Rasht": {
+        "incoming": 45345,
+        "outgoing": 18345
+      },
+      "Semnan": {
+        "incoming": 27890,
+        "outgoing": 9678
+      },
+      "Arak": {
+        "incoming": 23678,
+        "outgoing": 28789
+      },
+      "Zahedan": {
+        "incoming": 24567,
+        "outgoing": 29789
+      },
+      "Kermanshah": {
+        "incoming": 41234,
+        "outgoing": 40123
+      },
+      "Hamedan": {
+        "incoming": 33678,
+        "outgoing": 25012
+      },
+      "Yazd": {
+        "incoming": 34567,
+        "outgoing": 22345
+      },
+      "Bandar Abbas": {
+        "incoming": 45345,
+        "outgoing": 32345
+      },
+      "Urmia": {
+        "incoming": 29789,
+        "outgoing": 22567
+      },
+      "Ardabil": {
+        "incoming": 27890,
+        "outgoing": 20123
+      },
+      "Zanjan": {
+        "incoming": 24567,
+        "outgoing": 17012
+      },
+      "Sanandaj": {
+        "incoming": 31234,
+        "outgoing": 25012
+      },
+      "Shahrekord": {
+        "incoming": 23678,
+        "outgoing": 15890
+      },
+      "Ilam": {
+        "incoming": 15890,
+        "outgoing": 13789
+      },
+      "Bojnurd": {
+        "incoming": 19012,
+        "outgoing": 19012
+      },
+      "Birjand": {
+        "incoming": 21012,
+        "outgoing": 18012
+      },
+      "Sari": {
+        "incoming": 17012,
+        "outgoing": 18012
+      },
+      "Kerman": {
+        "incoming": 25012,
+        "outgoing": 24012
+      },
+      "Gorgan": {
+        "incoming": 23012,
+        "outgoing": 21012
+      },
+      "Khorramabad": {
+        "incoming": 17012,
+        "outgoing": 27890
+      },
+      "Qazvin": {
+        "incoming": 23012,
+        "outgoing": 34567
+      },
+      "Yasuj": {
+        "incoming": 18012,
+        "outgoing": 15890
+      },
+      "Bushehr": {
+        "incoming": 22345,
+        "outgoing": 18012
+      }
+    },
+    "1402": {
+      "Tehran": {
+        "incoming": 374567,
+        "outgoing": 345678
+      },
+      "Karaj": {
+        "incoming": 123456,
+        "outgoing": 83456
+      },
+      "Tabriz": {
+        "incoming": 40345,
+        "outgoing": 60567
+      },
+      "Isfahan": {
+        "incoming": 74789,
+        "outgoing": 92567
+      },
+      "Mashhad": {
+        "incoming": 124567,
+        "outgoing": 98456
+      },
+      "Shiraz": {
+        "incoming": 84789,
+        "outgoing": 60567
+      },
+      "Qom": {
+        "incoming": 58567,
+        "outgoing": 38123
+      },
+      "Ahvaz": {
+        "incoming": 43890,
+        "outgoing": 49012
+      },
+      "Rasht": {
+        "incoming": 45567,
+        "outgoing": 18567
+      },
+      "Semnan": {
+        "incoming": 28123,
+        "outgoing": 9789
+      },
+      "Arak": {
+        "incoming": 23890,
+        "outgoing": 29012
+      },
+      "Zahedan": {
+        "incoming": 24789,
+        "outgoing": 30012
+      },
+      "Kermanshah": {
+        "incoming": 41456,
+        "outgoing": 40345
+      },
+      "Hamedan": {
+        "incoming": 33890,
+        "outgoing": 25234
+      },
+      "Yazd": {
+        "incoming": 34789,
+        "outgoing": 22567
+      },
+      "Bandar Abbas": {
+        "incoming": 45567,
+        "outgoing": 32567
+      },
+      "Urmia": {
+        "incoming": 30012,
+        "outgoing": 22789
+      },
+      "Ardabil": {
+        "incoming": 28123,
+        "outgoing": 20345
+      },
+      "Zanjan": {
+        "incoming": 24789,
+        "outgoing": 17234
+      },
+      "Sanandaj": {
+        "incoming": 31456,
+        "outgoing": 25234
+      },
+      "Shahrekord": {
+        "incoming": 23890,
+        "outgoing": 16123
+      },
+      "Ilam": {
+        "incoming": 16123,
+        "outgoing": 14012
+      },
+      "Bojnurd": {
+        "incoming": 19234,
+        "outgoing": 19234
+      },
+      "Birjand": {
+        "incoming": 21234,
+        "outgoing": 18234
+      },
+      "Sari": {
+        "incoming": 17234,
+        "outgoing": 18234
+      },
+      "Kerman": {
+        "incoming": 25234,
+        "outgoing": 24234
+      },
+      "Gorgan": {
+        "incoming": 23234,
+        "outgoing": 21234
+      },
+      "Khorramabad": {
+        "incoming": 17234,
+        "outgoing": 28123
+      },
+      "Qazvin": {
+        "incoming": 23234,
+        "outgoing": 34789
+      },
+      "Yasuj": {
+        "incoming": 18234,
+        "outgoing": 16123
+      },
+      "Bushehr": {
+        "incoming": 22567,
+        "outgoing": 18234
+      }
+    },
+    "1403": {
+      "Tehran": {
+        "incoming": 376789,
+        "outgoing": 347890
+      },
+      "Karaj": {
+        "incoming": 124567,
+        "outgoing": 84567
+      },
+      "Tabriz": {
+        "incoming": 40567,
+        "outgoing": 60789
+      },
+      "Isfahan": {
+        "incoming": 75123,
+        "outgoing": 93123
+      },
+      "Mashhad": {
+        "incoming": 125678,
+        "outgoing": 99012
+      },
+      "Shiraz": {
+        "incoming": 85123,
+        "outgoing": 60789
+      },
+      "Qom": {
+        "incoming": 58789,
+        "outgoing": 38345
+      },
+      "Ahvaz": {
+        "incoming": 44123,
+        "outgoing": 49234
+      },
+      "Rasht": {
+        "incoming": 45789,
+        "outgoing": 18789
+      },
+      "Semnan": {
+        "incoming": 28345,
+        "outgoing": 9901
+      },
+      "Arak": {
+        "incoming": 24123,
+        "outgoing": 29234
+      },
+      "Zahedan": {
+        "incoming": 25012,
+        "outgoing": 30234
+      },
+      "Kermanshah": {
+        "incoming": 41678,
+        "outgoing": 40567
+      },
+      "Hamedan": {
+        "incoming": 34123,
+        "outgoing": 25456
+      },
+      "Yazd": {
+        "incoming": 35012,
+        "outgoing": 22789
+      },
+      "Bandar Abbas": {
+        "incoming": 45789,
+        "outgoing": 32789
+      },
+      "Urmia": {
+        "incoming": 30234,
+        "outgoing": 23012
+      },
+      "Ardabil": {
+        "incoming": 28345,
+        "outgoing": 20567
+      },
+      "Zanjan": {
+        "incoming": 25012,
+        "outgoing": 17456
+      },
+      "Sanandaj": {
+        "incoming": 31678,
+        "outgoing": 25456
+      },
+      "Shahrekord": {
+        "incoming": 24123,
+        "outgoing": 16345
+      },
+      "Ilam": {
+        "incoming": 16345,
+        "outgoing": 14234
+      },
+      "Bojnurd": {
+        "incoming": 19456,
+        "outgoing": 19456
+      },
+      "Birjand": {
+        "incoming": 21456,
+        "outgoing": 18456
+      },
+      "Sari": {
+        "incoming": 17456,
+        "outgoing": 18456
+      },
+      "Kerman": {
+        "incoming": 25456,
+        "outgoing": 24456
+      },
+      "Gorgan": {
+        "incoming": 23456,
+        "outgoing": 21456
+      },
+      "Khorramabad": {
+        "incoming": 17456,
+        "outgoing": 28345
+      },
+      "Qazvin": {
+        "incoming": 23456,
+        "outgoing": 35012
+      },
+      "Yasuj": {
+        "incoming": 18456,
+        "outgoing": 16345
+      },
+      "Bushehr": {
+        "incoming": 22789,
+        "outgoing": 18456
+      }
+    },
+    "1404": {
+      "Tehran": {
+        "incoming": 379012,
+        "outgoing": 350123
+      },
+      "Karaj": {
+        "incoming": 125678,
+        "outgoing": 85678
+      },
+      "Tabriz": {
+        "incoming": 40789,
+        "outgoing": 61012
+      },
+      "Isfahan": {
+        "incoming": 75456,
+        "outgoing": 93678
+      },
+      "Mashhad": {
+        "incoming": 126789,
+        "outgoing": 99567
+      },
+      "Shiraz": {
+        "incoming": 85456,
+        "outgoing": 61012
+      },
+      "Qom": {
+        "incoming": 59012,
+        "outgoing": 38567
+      },
+      "Ahvaz": {
+        "incoming": 44345,
+        "outgoing": 49456
+      },
+      "Rasht": {
+        "incoming": 46012,
+        "outgoing": 19012
+      },
+      "Semnan": {
+        "incoming": 28567,
+        "outgoing": 10012
+      },
+      "Arak": {
+        "incoming": 24345,
+        "outgoing": 29456
+      },
+      "Zahedan": {
+        "incoming": 25234,
+        "outgoing": 30456
+      },
+      "Kermanshah": {
+        "incoming": 41890,
+        "outgoing": 40789
+      },
+      "Hamedan": {
+        "incoming": 34345,
+        "outgoing": 25678
+      },
+      "Yazd": {
+        "incoming": 35234,
+        "outgoing": 23012
+      },
+      "Bandar Abbas": {
+        "incoming": 46012,
+        "outgoing": 33012
+      },
+      "Urmia": {
+        "incoming": 30456,
+        "outgoing": 23234
+      },
+      "Ardabil": {
+        "incoming": 28567,
+        "outgoing": 20789
+      },
+      "Zanjan": {
+        "incoming": 25234,
+        "outgoing": 17678
+      },
+      "Sanandaj": {
+        "incoming": 31890,
+        "outgoing": 25678
+      },
+      "Shahrekord": {
+        "incoming": 24345,
+        "outgoing": 16567
+      },
+      "Ilam": {
+        "incoming": 16567,
+        "outgoing": 14456
+      },
+      "Bojnurd": {
+        "incoming": 19678,
+        "outgoing": 19678
+      },
+      "Birjand": {
+        "incoming": 21678,
+        "outgoing": 18678
+      },
+      "Sari": {
+        "incoming": 17678,
+        "outgoing": 18678
+      },
+      "Kerman": {
+        "incoming": 25678,
+        "outgoing": 24678
+      },
+      "Gorgan": {
+        "incoming": 23678,
+        "outgoing": 21678
+      },
+      "Khorramabad": {
+        "incoming": 17678,
+        "outgoing": 28567
+      },
+      "Qazvin": {
+        "incoming": 23678,
+        "outgoing": 35234
+      },
+      "Yasuj": {
+        "incoming": 18678,
+        "outgoing": 16567
+      },
+      "Bushehr": {
+        "incoming": 23012,
+        "outgoing": 18678
+      }
+    },
+    "1405": {
+      "Tehran": {
+        "incoming": 381234,
+        "outgoing": 352345
+      },
+      "Karaj": {
+        "incoming": 126789,
+        "outgoing": 86789
+      },
+      "Tabriz": {
+        "incoming": 41012,
+        "outgoing": 61234
+      },
+      "Isfahan": {
+        "incoming": 75789,
+        "outgoing": 94234
+      },
+      "Mashhad": {
+        "incoming": 127890,
+        "outgoing": 100123
+      },
+      "Shiraz": {
+        "incoming": 85789,
+        "outgoing": 61234
+      },
+      "Qom": {
+        "incoming": 59234,
+        "outgoing": 38789
+      },
+      "Ahvaz": {
+        "incoming": 44567,
+        "outgoing": 49678
+      },
+      "Rasht": {
+        "incoming": 46234,
+        "outgoing": 19234
+      },
+      "Semnan": {
+        "incoming": 28789,
+        "outgoing": 10123
+      },
+      "Arak": {
+        "incoming": 24567,
+        "outgoing": 29678
+      },
+      "Zahedan": {
+        "incoming": 25456,
+        "outgoing": 30678
+      },
+      "Kermanshah": {
+        "incoming": 42123,
+        "outgoing": 41012
+      },
+      "Hamedan": {
+        "incoming": 34567,
+        "outgoing": 25890
+      },
+      "Yazd": {
+        "incoming": 35456,
+        "outgoing": 23234
+      },
+      "Bandar Abbas": {
+        "incoming": 46234,
+        "outgoing": 33234
+      },
+      "Urmia": {
+        "incoming": 30678,
+        "outgoing": 23456
+      },
+      "Ardabil": {
+        "incoming": 28789,
+        "outgoing": 21012
+      },
+      "Zanjan": {
+        "incoming": 25456,
+        "outgoing": 17890
+      },
+      "Sanandaj": {
+        "incoming": 32123,
+        "outgoing": 25890
+      },
+      "Shahrekord": {
+        "incoming": 24567,
+        "outgoing": 16789
+      },
+      "Ilam": {
+        "incoming": 16789,
+        "outgoing": 14678
+      },
+      "Bojnurd": {
+        "incoming": 19890,
+        "outgoing": 19890
+      },
+      "Birjand": {
+        "incoming": 21890,
+        "outgoing": 18890
+      },
+      "Sari": {
+        "incoming": 17890,
+        "outgoing": 18890
+      },
+      "Kerman": {
+        "incoming": 25890,
+        "outgoing": 24890
+      },
+      "Gorgan": {
+        "incoming": 23890,
+        "outgoing": 21890
+      },
+      "Khorramabad": {
+        "incoming": 17890,
+        "outgoing": 28789
+      },
+      "Qazvin": {
+        "incoming": 23890,
+        "outgoing": 35456
+      },
+      "Yasuj": {
+        "incoming": 18890,
+        "outgoing": 16789
+      },
+      "Bushehr": {
+        "incoming": 23234,
+        "outgoing": 18890
+      }
+    }
+  },
+  "تهران": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      278054,
+      279255,
+      283809,
+      281100,
+      295132,
+      281247,
+      279873,
+      287911,
+      282762,
+      278889,
+      288742,
+      287317,
+      278975,
+      299454,
+      294697,
+      293457
+    ],
+    "outgoing": [
+      337434,
+      338219,
+      326518,
+      326215,
+      329231,
+      339869,
+      330247,
+      338512,
+      333831,
+      340844,
+      328735,
+      341272,
+      333757,
+      338670,
+      339499,
+      331634
+    ],
+    "net": [
+      -59380,
+      -58964,
+      -42709,
+      -45115,
+      -34099,
+      -58622,
+      -50374,
+      -50601,
+      -51069,
+      -61955,
+      -39993,
+      -53955,
+      -54782,
+      -39216,
+      -44802,
+      -38177
+    ]
+  },
+  "البرز": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      98111,
+      97240,
+      96168,
+      96450,
+      101567,
+      99721,
+      96876,
+      99313,
+      96209,
+      101424,
+      102275,
+      100278,
+      103274,
+      96788,
+      100645,
+      99665
+    ],
+    "outgoing": [
+      75649,
+      77485,
+      79793,
+      78918,
+      78604,
+      77228,
+      76642,
+      79141,
+      78521,
+      79749,
+      76779,
+      78391,
+      76500,
+      77344,
+      79961,
+      78661
+    ],
+    "net": [
+      22462,
+      19755,
+      16375,
+      17532,
+      22963,
+      22493,
+      20234,
+      20172,
+      17688,
+      21675,
+      25496,
+      21887,
+      26774,
+      19444,
+      20684,
+      21004
+    ]
+  },
+  "آذربایجان شرقی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      37371,
+      37497,
+      36803,
+      37098,
+      35289,
+      34274,
+      35059,
+      37116,
+      35852,
+      36626,
+      36503,
+      34197,
+      36936,
+      34376,
+      34201,
+      36138
+    ],
+    "outgoing": [
+      49722,
+      49901,
+      51057,
+      51547,
+      51654,
+      51514,
+      50534,
+      50469,
+      51414,
+      52313,
+      51459,
+      50541,
+      51898,
+      51431,
+      50777,
+      51659
+    ],
+    "net": [
+      -12351,
+      -12404,
+      -14254,
+      -14449,
+      -16365,
+      -17240,
+      -15475,
+      -13353,
+      -15562,
+      -15687,
+      -14956,
+      -16344,
+      -14962,
+      -17055,
+      -16576,
+      -15521
+    ]
+  },
+  "آذربایجان غربی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      23322,
+      22400,
+      23429,
+      23026,
+      23430,
+      23282,
+      22641,
+      22509,
+      22974,
+      22979,
+      23342,
+      23058,
+      22712,
+      23226,
+      22817,
+      23506
+    ],
+    "outgoing": [
+      18779,
+      18897,
+      19723,
+      18422,
+      18339,
+      19039,
+      19482,
+      18501,
+      19266,
+      18750,
+      18420,
+      20432,
+      18501,
+      19593,
+      19836,
+      19841
+    ],
+    "net": [
+      4543,
+      3503,
+      3706,
+      4604,
+      5091,
+      4243,
+      3159,
+      4008,
+      3708,
+      4229,
+      4922,
+      2626,
+      4211,
+      3633,
+      2981,
+      3665
+    ]
+  },
+  "اردبیل": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      20595,
+      20983,
+      20495,
+      21060,
+      21031,
+      21399,
+      20747,
+      21369,
+      21241,
+      21448,
+      20843,
+      21444,
+      21449,
+      20898,
+      21003,
+      21523
+    ],
+    "outgoing": [
+      17791,
+      16668,
+      18025,
+      17530,
+      17206,
+      16655,
+      16746,
+      17489,
+      17428,
+      17097,
+      17599,
+      17562,
+      17064,
+      16940,
+      17090,
+      17523
+    ],
+    "net": [
+      2804,
+      4315,
+      2470,
+      3530,
+      3825,
+      4744,
+      4001,
+      3880,
+      3813,
+      4351,
+      3244,
+      3882,
+      4385,
+      3958,
+      3913,
+      4000
+    ]
+  },
+  "اصفهان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      66722,
+      66393,
+      67038,
+      64713,
+      68363,
+      69112,
+      68694,
+      66843,
+      67494,
+      69587,
+      66696,
+      66386,
+      71087,
+      69253,
+      67267,
+      69206
+    ],
+    "outgoing": [
+      71925,
+      73356,
+      75525,
+      74838,
+      71190,
+      70831,
+      75195,
+      73089,
+      70439,
+      74057,
+      70679,
+      73730,
+      72139,
+      76974,
+      72744,
+      74937
+    ],
+    "net": [
+      -5203,
+      -6963,
+      -8487,
+      -10125,
+      -2827,
+      -1719,
+      -6501,
+      -6246,
+      -2945,
+      -4470,
+      -3983,
+      -7344,
+      -1052,
+      -7721,
+      -5477,
+      -5731
+    ]
+  },
+  "ایلام": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      9801,
+      10418,
+      10454,
+      10141,
+      9740,
+      10510,
+      10660,
+      9900,
+      10306,
+      10382,
+      10554,
+      10377,
+      10071,
+      10786,
+      10034,
+      10117
+    ],
+    "outgoing": [
+      10069,
+      9666,
+      10294,
+      9960,
+      10152,
+      10273,
+      10147,
+      10203,
+      10362,
+      10455,
+      9682,
+      9745,
+      10299,
+      9834,
+      10394,
+      10415
+    ],
+    "net": [
+      -268,
+      752,
+      160,
+      181,
+      -412,
+      237,
+      513,
+      -303,
+      -56,
+      -73,
+      872,
+      632,
+      -228,
+      952,
+      -360,
+      -298
+    ]
+  },
+  "بوشهر": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      14938,
+      15610,
+      15621,
+      15086,
+      15833,
+      15278,
+      15510,
+      15989,
+      15201,
+      15732,
+      16093,
+      15720,
+      16297,
+      16388,
+      15268,
+      16432
+    ],
+    "outgoing": [
+      15349,
+      15047,
+      15245,
+      15360,
+      15622,
+      15604,
+      15535,
+      14824,
+      15060,
+      14879,
+      15572,
+      15490,
+      15013,
+      15590,
+      15214,
+      15008
+    ],
+    "net": [
+      -411,
+      563,
+      376,
+      -274,
+      211,
+      -326,
+      -25,
+      1165,
+      141,
+      853,
+      521,
+      230,
+      1284,
+      798,
+      54,
+      1424
+    ]
+  },
+  "چهارمحال و بختیاری": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      16192,
+      16126,
+      15979,
+      15921,
+      16839,
+      16464,
+      15957,
+      16936,
+      16669,
+      16260,
+      16830,
+      15791,
+      16092,
+      16856,
+      16299,
+      16291
+    ],
+    "outgoing": [
+      12929,
+      13063,
+      12839,
+      13060,
+      13248,
+      12882,
+      12772,
+      12792,
+      13606,
+      13224,
+      13642,
+      12854,
+      13455,
+      13599,
+      13262,
+      13500
+    ],
+    "net": [
+      3263,
+      3063,
+      3140,
+      2861,
+      3591,
+      3582,
+      3185,
+      4144,
+      3063,
+      3036,
+      3188,
+      2937,
+      2637,
+      3257,
+      3037,
+      2791
+    ]
+  },
+  "خراسان جنوبی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      14143,
+      14081,
+      15022,
+      14243,
+      14816,
+      15032,
+      15023,
+      14211,
+      14373,
+      14403,
+      14294,
+      14336,
+      14905,
+      15209,
+      14844,
+      15032
+    ],
+    "outgoing": [
+      15509,
+      16173,
+      15689,
+      14850,
+      16241,
+      16186,
+      15419,
+      15988,
+      15043,
+      15868,
+      15686,
+      15677,
+      16072,
+      15692,
+      16280,
+      16341
+    ],
+    "net": [
+      -1366,
+      -2092,
+      -667,
+      -607,
+      -1425,
+      -1154,
+      -396,
+      -1777,
+      -670,
+      -1465,
+      -1392,
+      -1341,
+      -1167,
+      -483,
+      -1436,
+      -1309
+    ]
+  },
+  "خراسان رضوی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      92006,
+      94792,
+      92709,
+      94363,
+      95156,
+      97311,
+      99857,
+      100096,
+      100722,
+      100343,
+      95478,
+      96882,
+      95529,
+      99219,
+      97418,
+      100995
+    ],
+    "outgoing": [
+      103926,
+      104407,
+      102418,
+      104215,
+      101079,
+      103997,
+      103312,
+      101338,
+      101393,
+      101936,
+      102231,
+      103242,
+      103200,
+      104908,
+      105521,
+      102120
+    ],
+    "net": [
+      -11920,
+      -9615,
+      -9709,
+      -9852,
+      -5923,
+      -6686,
+      -3455,
+      -1242,
+      -671,
+      -1593,
+      -6753,
+      -6360,
+      -7671,
+      -5689,
+      -8103,
+      -1125
+    ]
+  },
+  "خراسان شمالی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      12495,
+      12951,
+      12633,
+      12546,
+      13000,
+      12777,
+      12764,
+      13108,
+      12828,
+      13131,
+      13059,
+      12786,
+      12904,
+      12788,
+      12950,
+      12764
+    ],
+    "outgoing": [
+      16386,
+      15904,
+      16287,
+      15775,
+      16268,
+      16112,
+      16223,
+      16243,
+      15795,
+      15919,
+      16294,
+      16218,
+      16507,
+      16110,
+      16252,
+      16027
+    ],
+    "net": [
+      -3891,
+      -2953,
+      -3654,
+      -3229,
+      -3268,
+      -3335,
+      -3459,
+      -3135,
+      -2967,
+      -2788,
+      -3235,
+      -3432,
+      -3603,
+      -3322,
+      -3302,
+      -3263
+    ]
+  },
+  "خوزستان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      42263,
+      39841,
+      39575,
+      41145,
+      39204,
+      39455,
+      42401,
+      39378,
+      41234,
+      38791,
+      42081,
+      41366,
+      41398,
+      38910,
+      41087,
+      42485
+    ],
+    "outgoing": [
+      40662,
+      41507,
+      39017,
+      40559,
+      42916,
+      41551,
+      41143,
+      39707,
+      43246,
+      41773,
+      40064,
+      43767,
+      43315,
+      42311,
+      42387,
+      40963
+    ],
+    "net": [
+      1601,
+      -1666,
+      558,
+      586,
+      -3712,
+      -2096,
+      1258,
+      -329,
+      -2012,
+      -2982,
+      2017,
+      -2401,
+      -1917,
+      -3401,
+      -1300,
+      1522
+    ]
+  },
+  "زنجان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      17990,
+      17284,
+      17798,
+      18019,
+      18244,
+      18001,
+      18049,
+      18160,
+      17927,
+      18366,
+      17199,
+      17829,
+      18273,
+      17775,
+      18638,
+      18488
+    ],
+    "outgoing": [
+      13223,
+      12928,
+      13253,
+      13446,
+      13388,
+      13350,
+      12885,
+      12933,
+      12865,
+      13575,
+      13427,
+      13296,
+      13562,
+      13075,
+      13518,
+      13617
+    ],
+    "net": [
+      4767,
+      4356,
+      4545,
+      4573,
+      4856,
+      4651,
+      5164,
+      5227,
+      5062,
+      4791,
+      3772,
+      4533,
+      4711,
+      4700,
+      5120,
+      4871
+    ]
+  },
+  "سمنان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      22334,
+      20605,
+      22817,
+      23005,
+      22980,
+      22385,
+      21621,
+      21601,
+      22168,
+      22000,
+      22966,
+      20928,
+      22773,
+      21552,
+      22460,
+      21094
+    ],
+    "outgoing": [
+      8993,
+      8528,
+      8917,
+      8952,
+      8378,
+      8473,
+      8957,
+      8987,
+      8782,
+      8960,
+      8997,
+      8943,
+      8486,
+      9220,
+      8384,
+      9110
+    ],
+    "net": [
+      13341,
+      12077,
+      13900,
+      14053,
+      14602,
+      13912,
+      12664,
+      12614,
+      13386,
+      13040,
+      13969,
+      11985,
+      14287,
+      12332,
+      14076,
+      11984
+    ]
+  },
+  "سیستان و بلوچستان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      20431,
+      20188,
+      20279,
+      20173,
+      20201,
+      20751,
+      20566,
+      20171,
+      20734,
+      19986,
+      20850,
+      20451,
+      20141,
+      21027,
+      19943,
+      20214
+    ],
+    "outgoing": [
+      22101,
+      23322,
+      22353,
+      21447,
+      23577,
+      22602,
+      21835,
+      23671,
+      23672,
+      22042,
+      23729,
+      23675,
+      23596,
+      23386,
+      22556,
+      24086
+    ],
+    "net": [
+      -1670,
+      -3134,
+      -2074,
+      -1274,
+      -3376,
+      -1851,
+      -1269,
+      -3500,
+      -2938,
+      -2056,
+      -2879,
+      -3224,
+      -3455,
+      -2359,
+      -2613,
+      -3872
+    ]
+  },
+  "فارس": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      69137,
+      69301,
+      74835,
+      70025,
+      71571,
+      69978,
+      75668,
+      75279,
+      73508,
+      70982,
+      74065,
+      74802,
+      75019,
+      75071,
+      76300,
+      72366
+    ],
+    "outgoing": [
+      64782,
+      66506,
+      64639,
+      67674,
+      64159,
+      65051,
+      63205,
+      62633,
+      66583,
+      66909,
+      67095,
+      65032,
+      64397,
+      68244,
+      63729,
+      67409
+    ],
+    "net": [
+      4355,
+      2795,
+      10196,
+      2351,
+      7412,
+      4927,
+      12463,
+      12646,
+      6925,
+      4073,
+      6970,
+      9770,
+      10622,
+      6827,
+      12571,
+      4957
+    ]
+  },
+  "قزوین": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      18732,
+      18658,
+      17914,
+      18673,
+      18269,
+      18928,
+      17982,
+      18378,
+      18398,
+      18991,
+      18715,
+      18095,
+      18668,
+      18979,
+      18374,
+      18913
+    ],
+    "outgoing": [
+      27725,
+      25291,
+      28233,
+      27700,
+      25939,
+      26031,
+      26825,
+      27746,
+      26864,
+      27025,
+      27103,
+      27312,
+      26782,
+      26987,
+      27265,
+      25921
+    ],
+    "net": [
+      -8993,
+      -6633,
+      -10319,
+      -9027,
+      -7670,
+      -7103,
+      -8843,
+      -9368,
+      -8466,
+      -8034,
+      -8388,
+      -9217,
+      -8114,
+      -8008,
+      -8891,
+      -7008
+    ]
+  },
+  "قم": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      47800,
+      50768,
+      48987,
+      50331,
+      50944,
+      48315,
+      49096,
+      48839,
+      50741,
+      49639,
+      49343,
+      52384,
+      51624,
+      52620,
+      49343,
+      52282
+    ],
+    "outgoing": [
+      39798,
+      40209,
+      39647,
+      38273,
+      39139,
+      39523,
+      38808,
+      40466,
+      38348,
+      38159,
+      38466,
+      40140,
+      38659,
+      40480,
+      40265,
+      39874
+    ],
+    "net": [
+      8002,
+      10559,
+      9340,
+      12058,
+      11805,
+      8792,
+      10288,
+      8373,
+      12393,
+      11480,
+      10877,
+      12244,
+      12965,
+      12140,
+      9078,
+      12408
+    ]
+  },
+  "کردستان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      22907,
+      23298,
+      23748,
+      23490,
+      22767,
+      23572,
+      23038,
+      23035,
+      23184,
+      23338,
+      23039,
+      24825,
+      23656,
+      24454,
+      23088,
+      24214
+    ],
+    "outgoing": [
+      23280,
+      23955,
+      22435,
+      23686,
+      22722,
+      23638,
+      22579,
+      22489,
+      23600,
+      24019,
+      24227,
+      23001,
+      22516,
+      23367,
+      24092,
+      23385
+    ],
+    "net": [
+      -373,
+      -657,
+      1313,
+      -196,
+      45,
+      -66,
+      459,
+      546,
+      -416,
+      -681,
+      -1188,
+      1824,
+      1140,
+      1087,
+      -1004,
+      829
+    ]
+  },
+  "کرمان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      18174,
+      18193,
+      18348,
+      18358,
+      18084,
+      18367,
+      18156,
+      18102,
+      18623,
+      18513,
+      18329,
+      17899,
+      17959,
+      18807,
+      18819,
+      18024
+    ],
+    "outgoing": [
+      21710,
+      22449,
+      22736,
+      23331,
+      22835,
+      22208,
+      22149,
+      21930,
+      22682,
+      23355,
+      21952,
+      22553,
+      23018,
+      22915,
+      22123,
+      22840
+    ],
+    "net": [
+      -3536,
+      -4256,
+      -4388,
+      -4973,
+      -4751,
+      -3841,
+      -3993,
+      -3828,
+      -4059,
+      -4842,
+      -3623,
+      -4654,
+      -5059,
+      -4108,
+      -3304,
+      -4816
+    ]
+  },
+  "کرمانشاه": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      35067,
+      33783,
+      34135,
+      33680,
+      33669,
+      35701,
+      35028,
+      36011,
+      34894,
+      34655,
+      35407,
+      34734,
+      35281,
+      36385,
+      34788,
+      35094
+    ],
+    "outgoing": [
+      42688,
+      42563,
+      42856,
+      43938,
+      41302,
+      42887,
+      42747,
+      41579,
+      41167,
+      43900,
+      41563,
+      44453,
+      40594,
+      43073,
+      42022,
+      41322
+    ],
+    "net": [
+      -7621,
+      -8780,
+      -8721,
+      -10258,
+      -7633,
+      -7186,
+      -7719,
+      -5568,
+      -6273,
+      -9245,
+      -6156,
+      -9719,
+      -5313,
+      -6688,
+      -7234,
+      -6228
+    ]
+  },
+  "کهگیلویه و بویراحمد": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      11582,
+      11537,
+      11373,
+      11584,
+      11639,
+      11517,
+      11937,
+      11972,
+      11925,
+      11771,
+      11540,
+      11871,
+      12001,
+      11774,
+      12082,
+      12054
+    ],
+    "outgoing": [
+      13724,
+      13738,
+      13017,
+      13211,
+      13096,
+      13663,
+      12982,
+      13417,
+      13701,
+      13362,
+      13761,
+      13680,
+      13235,
+      13061,
+      13107,
+      13268
+    ],
+    "net": [
+      -2142,
+      -2201,
+      -1644,
+      -1627,
+      -1457,
+      -2146,
+      -1045,
+      -1445,
+      -1776,
+      -1591,
+      -2221,
+      -1809,
+      -1234,
+      -1287,
+      -1025,
+      -1214
+    ]
+  },
+  "گلستان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      16503,
+      16956,
+      17053,
+      16441,
+      16407,
+      16273,
+      16905,
+      16655,
+      16881,
+      17426,
+      16627,
+      16550,
+      16329,
+      16898,
+      16765,
+      16690
+    ],
+    "outgoing": [
+      19731,
+      18802,
+      19217,
+      18980,
+      18043,
+      19549,
+      19446,
+      18521,
+      19405,
+      19384,
+      19681,
+      18679,
+      19840,
+      18349,
+      19139,
+      18883
+    ],
+    "net": [
+      -3228,
+      -1846,
+      -2164,
+      -2539,
+      -1636,
+      -3276,
+      -2541,
+      -1866,
+      -2524,
+      -1958,
+      -3054,
+      -2129,
+      -3511,
+      -1451,
+      -2374,
+      -2193
+    ]
+  },
+  "گیلان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      35087,
+      36140,
+      36510,
+      34812,
+      36622,
+      35249,
+      35267,
+      36342,
+      35032,
+      36848,
+      35510,
+      37001,
+      36099,
+      37213,
+      35887,
+      36615
+    ],
+    "outgoing": [
+      15446,
+      14797,
+      15306,
+      15024,
+      15341,
+      14887,
+      15285,
+      15262,
+      15415,
+      15501,
+      15175,
+      15233,
+      15283,
+      15442,
+      15576,
+      15526
+    ],
+    "net": [
+      19641,
+      21343,
+      21204,
+      19788,
+      21281,
+      20362,
+      19982,
+      21080,
+      19617,
+      21347,
+      20335,
+      21768,
+      20816,
+      21771,
+      20311,
+      21089
+    ]
+  },
+  "لرستان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      12349,
+      12401,
+      12403,
+      13069,
+      12753,
+      12334,
+      12028,
+      12454,
+      12508,
+      12662,
+      12644,
+      12787,
+      12441,
+      12404,
+      12088,
+      12272
+    ],
+    "outgoing": [
+      20399,
+      20224,
+      22234,
+      20339,
+      20059,
+      22415,
+      22434,
+      22211,
+      22281,
+      20798,
+      21863,
+      22601,
+      21130,
+      22522,
+      21179,
+      21349
+    ],
+    "net": [
+      -8050,
+      -7823,
+      -9831,
+      -7270,
+      -7306,
+      -10081,
+      -10406,
+      -9757,
+      -9773,
+      -8136,
+      -9219,
+      -9814,
+      -8689,
+      -10118,
+      -9091,
+      -9077
+    ]
+  },
+  "مازندران": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      12403,
+      11999,
+      12727,
+      12464,
+      12306,
+      12439,
+      12434,
+      12877,
+      12292,
+      12520,
+      12145,
+      12733,
+      12768,
+      12855,
+      12846,
+      12422
+    ],
+    "outgoing": [
+      10843,
+      10876,
+      11637,
+      10856,
+      11599,
+      11016,
+      11246,
+      11645,
+      11596,
+      11239,
+      11143,
+      11009,
+      11459,
+      11404,
+      11824,
+      11414
+    ],
+    "net": [
+      1560,
+      1123,
+      1090,
+      1608,
+      707,
+      1423,
+      1188,
+      1232,
+      696,
+      1281,
+      1002,
+      1724,
+      1309,
+      1451,
+      1022,
+      1008
+    ]
+  },
+  "مرکزی": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      17849,
+      18033,
+      19234,
+      18018,
+      18755,
+      17806,
+      19313,
+      17640,
+      18185,
+      17971,
+      18820,
+      18347,
+      18465,
+      18102,
+      18077,
+      18180
+    ],
+    "outgoing": [
+      22622,
+      22654,
+      22329,
+      21593,
+      21189,
+      21742,
+      22079,
+      21859,
+      22392,
+      21821,
+      22647,
+      22782,
+      21769,
+      23223,
+      22003,
+      22887
+    ],
+    "net": [
+      -4773,
+      -4621,
+      -3095,
+      -3575,
+      -2434,
+      -3936,
+      -2766,
+      -4219,
+      -4207,
+      -3850,
+      -3827,
+      -4435,
+      -3304,
+      -5121,
+      -3926,
+      -4707
+    ]
+  },
+  "هرمزگان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      35923,
+      36080,
+      35495,
+      35994,
+      35412,
+      35692,
+      35672,
+      36729,
+      36038,
+      36118,
+      36791,
+      35748,
+      36784,
+      36648,
+      35983,
+      37119
+    ],
+    "outgoing": [
+      30787,
+      30928,
+      30916,
+      33392,
+      32825,
+      32909,
+      31263,
+      31909,
+      32416,
+      30746,
+      33499,
+      31347,
+      31617,
+      32043,
+      32414,
+      33131
+    ],
+    "net": [
+      5136,
+      5152,
+      4579,
+      2602,
+      2587,
+      2783,
+      4409,
+      4820,
+      3622,
+      5372,
+      3292,
+      4401,
+      5167,
+      4605,
+      3569,
+      3988
+    ]
+  },
+  "همدان": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      25194,
+      25568,
+      26308,
+      26921,
+      27290,
+      26043,
+      26094,
+      25607,
+      27127,
+      26745,
+      27764,
+      25989,
+      27050,
+      26228,
+      27373,
+      26812
+    ],
+    "outgoing": [
+      23678,
+      23306,
+      23280,
+      23605,
+      22758,
+      23075,
+      23771,
+      22704,
+      23161,
+      23727,
+      23227,
+      23791,
+      23772,
+      22912,
+      23106,
+      23700
+    ],
+    "net": [
+      1516,
+      2262,
+      3028,
+      3316,
+      4532,
+      2968,
+      2323,
+      2903,
+      3966,
+      3018,
+      4537,
+      2198,
+      3278,
+      3316,
+      4267,
+      3112
+    ]
+  },
+  "یزد": {
+    "years": [
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405
+    ],
+    "incoming": [
+      26041,
+      25862,
+      26658,
+      25876,
+      27735,
+      26461,
+      26921,
+      27289,
+      27034,
+      27860,
+      27109,
+      27204,
+      27559,
+      28204,
+      28011,
+      26586
+    ],
+    "outgoing": [
+      18989,
+      19362,
+      20061,
+      19692,
+      20164,
+      18873,
+      20148,
+      19912,
+      19770,
+      20258,
+      20281,
+      19661,
+      19171,
+      19279,
+      19434,
+      20087
+    ],
+    "net": [
+      7052,
+      6500,
+      6597,
+      6184,
+      7571,
+      7588,
+      6773,
+      7377,
+      7264,
+      7602,
+      6828,
+      7543,
+      8388,
+      8925,
+      8577,
+      6499
+    ]
+  }
+}

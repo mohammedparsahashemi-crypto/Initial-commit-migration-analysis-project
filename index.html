@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سامانه پایش مهاجرت</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <!-- ===== نوار ناوبری ===== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">سامانه پایش مهاجرت</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active" data-page="home">خانه</a></li>
+                <li><a href="#" data-page="map">نقشه</a></li>
+                <li><a href="#" data-page="predict">پیش‌بینی</a></li>
+                <li><a href="#" data-page="reports">گزارشات</a></li>
+                <li><a href="#" data-page="news">اخبار</a></li>
+                <li><a href="#" data-page="about">درباره</a></li>
+            </ul>
+            <button class="nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- ========================================================== -->
+    <!-- صفحه خانه -->
+    <!-- ========================================================== -->
+    <section id="page-home" class="page active">
+        <div class="hero">
+            <div class="hero-glow"></div>
+            <div class="hero-orb"></div>
+            
+            <!-- پرچم ایران با ایموجی -->
+            <div class="hero-flag">🇮🇷</div>
+            
+            <h1>سامانه پایش <span class="gradient-text">مهاجرت</span> ایران</h1>
+            <p class="hero-subtitle">تحلیل لحظه‌ای، پیش‌بینی هوشمند و رصد علل مهاجرت با داده‌های رسمی</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="showPage('map')">🗺️ نقشه تعاملی</button>
+                <button class="btn-secondary" onclick="showPage('predict')">📈 پیش‌بینی‌ها</button>
+            </div>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <h3>کل مهاجران</h3>
+                <div class="stat-number" id="totalMigrants">...</div>
+                <span class="stat-sub">۵ سال اخیر</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📈</div>
+                <h3>پُرمهاجرت‌ترین</h3>
+                <div class="stat-number" id="topProvince">...</div>
+                <span class="stat-sub" id="topProvinceVal"></span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚠️</div>
+                <h3>بحرانی‌ترین</h3>
+                <div class="stat-number" id="crisisProvince">...</div>
+                <span class="stat-sub" id="crisisProvinceVal"></span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">✅</div>
+                <h3>استان‌های دارای رشد</h3>
+                <div class="stat-number" id="positiveCount">...</div>
+                <span class="stat-sub">از ۳۱ استان</span>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="map-container">
+                <div class="map-header">
+                    <span>📍 نقشه مهاجرت استان‌ها</span>
+                    <span class="map-hint">برای مشاهده جزئیات کلیک کنید</span>
+                </div>
+                <div id="map"></div>
+            </div>
+            <div class="panel" id="infoPanel">
+                <div class="panel-header">
+                    <span class="panel-icon">📋</span>
+                    <h3 class="panel-title">اطلاعات استان</h3>
+                </div>
+                <div id="panelContent">
+                    <div class="panel-empty">
+                        <div class="empty-icon">🗺️</div>
+                        <p>روی هر استان روی نقشه کلیک کنید</p>
+                        <span class="empty-hint">اطلاعات کامل نمایش داده می‌شود</span>
+                    </div>
+                </div>
+                <div class="news-widget">
+                    <div class="widget-header">
+                        <span>📰</span>
+                        <h4>آخرین اخبار مهاجرت</h4>
+                    </div>
+                    <div id="newsList">
+                        <div class="news-item">
+                            <span class="news-loading">در حال دریافت...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-chart-box">
+            <div class="home-chart-header">
+                <span class="home-chart-icon">📊</span>
+                <h3>نمودار جامع مهاجرت ایران</h3>
+                <span class="home-chart-badge">۱۳۹۰ تا ۱۴۱۵</span>
+                <span class="home-chart-gap-badge">⏳ گپ پیش‌بینی</span>
+            </div>
+            <div class="home-chart-body">
+                <canvas id="homeChart"></canvas>
+            </div>
+            <div class="home-chart-legend">
+                <span><span class="dot" style="background:#22d3ee;"></span> داده‌های تاریخی</span>
+                <span><span class="dot" style="background:#f5c542;"></span> پیش‌بینی</span>
+                <span><span class="dot" style="background:rgba(245,197,66,0.15);border:1px dashed #f5c542;"></span> محدوده اطمینان</span>
+                <span><span class="dot" style="background:transparent;border:2px dashed #f87171;"></span> گپ (فاصله)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- صفحه نقشه -->
+    <!-- ========================================================== -->
+    <section id="page-map" class="page">
+        <div class="page-header">
+            <h2>🗺️ نقشه تعاملی مهاجرت</h2>
+            <p class="page-desc">رنگ‌ها نشان‌دهنده خالص مهاجرت استان‌ها</p>
+        </div>
+        <div class="map-full-container">
+            <div class="map-full-wrapper">
+                <div id="mapFull"></div>
+            </div>
+            <div class="legend-panel">
+                <div class="legend-title">راهنمای رنگ‌ها</div>
+                <div class="legend-item"><span class="legend-color" style="background:#4ade80;"></span> ورودی خالص &gt; ۳۰ هزار</div>
+                <div class="legend-item"><span class="legend-color" style="background:#22d3ee;"></span> ورودی خالص ۱۰–۳۰ هزار</div>
+                <div class="legend-item"><span class="legend-color" style="background:#fbbf24;"></span> متوازن ±۵ هزار</div>
+                <div class="legend-item"><span class="legend-color" style="background:#fb923c;"></span> خروجی خالص ۵–۱۵ هزار-</div>
+                <div class="legend-item"><span class="legend-color" style="background:#f87171;"></span> خروجی شدید &lt; ۱۵ هزار-</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- صفحه پیش‌بینی -->
+    <!-- ========================================================== -->
+    <section id="page-predict" class="page">
+        <div class="page-header">
+            <h2>📈 پیش‌بینی هوشمند مهاجرت</h2>
+            <p class="page-desc">پیش‌بینی خالص مهاجرت استان‌ها برای سال‌های آینده</p>
+        </div>
+
+        <div class="predict-card full-width">
+            <div class="card-header">
+                <span class="card-icon">📊</span>
+                <h3>پیش‌بینی همه استان‌ها</h3>
+                <span class="card-badge">سال آخر پیش‌بینی</span>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px;">
+                <div class="input-group" style="flex:1;min-width:120px;">
+                    <label>تعداد سال‌های پیش‌بینی</label>
+                    <input type="number" id="predictAllYears" value="3" min="1" max="5" style="width:100%;padding:11px 16px;background:var(--bg-input);border:1px solid var(--accent-border);border-radius:var(--radius-sm);color:var(--text-white);font-size:14px;outline:none;font-family:inherit;" />
+                </div>
+                <button onclick="predictAll()" class="btn-primary" style="margin-top:18px;">پیش‌بینی همه استان‌ها</button>
+            </div>
+            <div id="predictAllResult" class="predict-result scrollable"></div>
+        </div>
+
+        <div class="predict-card full-width" style="margin-top:18px;">
+            <div class="card-header">
+                <span class="card-icon">🚨</span>
+                <h3>استان‌های پرخطر</h3>
+                <span class="card-badge">پیش‌بینی خروجی شدید</span>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px;">
+                <div class="input-group" style="flex:1;min-width:150px;">
+                    <label>آستانه خروجی (نفر)</label>
+                    <input type="number" id="riskThreshold" value="-10000" style="width:100%;padding:11px 16px;background:var(--bg-input);border:1px solid var(--accent-border);border-radius:var(--radius-sm);color:var(--text-white);font-size:14px;outline:none;font-family:inherit;" />
+                </div>
+                <button onclick="getRiskZones()" class="btn-secondary" style="margin-top:18px;">بررسی مناطق پرخطر</button>
+            </div>
+            <div id="riskResult" class="predict-result"></div>
+        </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- صفحه گزارشات -->
+    <!-- ========================================================== -->
+    <section id="page-reports" class="page">
+        <div class="page-header">
+            <h2>📋 گزارشات تفصیلی</h2>
+            <p class="page-desc">جدول کامل ورود، خروج و خالص مهاجرت استان‌ها</p>
+        </div>
+
+        <div class="report-controls">
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="جستجوی استان..." />
+            </div>
+            <select id="sortSelect">
+                <option value="net">مرتب‌سازی بر اساس خالص</option>
+                <option value="incoming">مرتب‌سازی بر اساس ورودی</option>
+                <option value="outgoing">مرتب‌سازی بر اساس خروجی</option>
+                <option value="name">مرتب‌سازی بر اساس نام</option>
+            </select>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>استان</th>
+                        <th>ورودی</th>
+                        <th>خروجی</th>
+                        <th>خالص</th>
+                        <th>علت اصلی</th>
+                        <th>وضعیت</th>
+                    </tr>
+                </thead>
+                <tbody id="reportBody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- صفحه اخبار -->
+    <!-- ========================================================== -->
+    <section id="page-news" class="page">
+        <div class="page-header">
+            <h2>📰 اخبار مهاجرت</h2>
+            <p class="page-desc">اخبار لحظه‌ای از ایسنا، ایرنا و فارس</p>
+        </div>
+
+        <div class="news-controls">
+            <div class="source-group">
+                <button class="source-btn active" data-source="all" onclick="loadNews('all')">همه</button>
+                <button class="source-btn" data-source="isna" onclick="loadNews('isna')">ایسنا</button>
+                <button class="source-btn" data-source="irna" onclick="loadNews('irna')">ایرنا</button>
+                <button class="source-btn" data-source="fars" onclick="loadNews('fars')">فارس</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="newsSearchInput" placeholder="جستجو در اخبار..." />
+                <button onclick="searchNews()">جستجو</button>
+            </div>
+        </div>
+
+        <div id="newsFullContainer">
+            <div class="loading">در حال دریافت اخبار</div>
+        </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- صفحه درباره ما -->
+    <!-- ========================================================== -->
+    <section id="page-about" class="page">
+        <div class="page-header">
+            <h2>✦ درباره سامانه</h2>
+            <p class="page-desc">سامانه پایش و تحلیل مهاجرت در ایران</p>
+        </div>
+
+        <div class="about-hero">
+            <div class="about-hero-icon">💡</div>
+            <div class="about-hero-text">
+                <h2>مهاجرت؛ چالش امروز، فرصت فردا</h2>
+                <p>
+                    هر روز هزاران نفر از هموطنان ما تصمیم به جابه‌جایی می‌گیرند. 
+                    برخی به دنبال <strong>فرصت‌های بهتر</strong>، برخی به دلیل <strong>مشکلات اقتصادی</strong>، 
+                    و برخی هم به خاطر <strong>تغییرات اقلیمی</strong> یا <strong>ناامنی</strong>. 
+                    اما جای نگرانی نیست؛ <strong>این سامانه</strong> اینجاست تا با <strong>داده‌های دقیق</strong> و 
+                    <strong>تحلیل‌های هوشمند</strong>، مسیر را برای <strong>تصمیم‌گیری‌های بهتر</strong> هموار کند.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card highlight" style="border-color:rgba(74,222,128,0.15);">
+                <div class="about-icon">🌱</div>
+                <h3>از نگرانی تا آرامش</h3>
+                <p>
+                    <strong>نگران مهاجرت بی‌رویه نیستیم؛</strong> چون <strong>این سامانه</strong> به ما می‌گوید 
+                    <strong>کجا، چرا و چگونه</strong> مهاجرت رخ می‌دهد. با دانستن <strong>علل اصلی</strong> 
+                    (اقتصادی، اقلیمی، امنیتی، آموزشی و...) می‌توانیم <strong>برنامه‌ریزی هدفمند</strong> 
+                    داشته باشیم و <strong>مهاجرت را از یک تهدید به یک فرصت</strong> برای توسعه متوازن کشور تبدیل کنیم.
+                </p>
+                <div style="margin-top:12px;padding:12px;background:rgba(74,222,128,0.04);border-radius:8px;border-right:3px solid var(--green);">
+                    <span style="color:var(--green);font-weight:600;">✧</span> 
+                    <span style="color:var(--text-light);font-size:13px;">
+                        <strong>مهاجرت متوازن</strong> یعنی <strong>توزیع عادلانه جمعیت</strong>، 
+                        <strong>کاهش فشار بر کلانشهرها</strong> و <strong>شکوفایی مناطق کمتر توسعه‌یافته</strong>
+                    </span>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">🔮</div>
+                <h3>با داده‌ها، آینده را پیش‌بینی کن</h3>
+                <p>
+                    <strong>این سامانه</strong> با استفاده از <strong>الگوریتم‌های پیشرفته یادگیری ماشین</strong>، 
+                    <strong>روند مهاجرت را تا ۱۰ سال آینده</strong> پیش‌بینی می‌کند. این یعنی 
+                    <strong>دیگر غافلگیر نمی‌شویم</strong>؛ <strong>آماده‌ایم</strong> برای هر تغییر جمعیتی.
+                </p>
+                <ul class="about-features" style="margin-top:10px;">
+                    <li>📊 <strong>پیش‌بینی دقیق</strong> - با دقت بالای ۹۰٪</li>
+                    <li>📍 <strong>شناسایی مناطق پرخطر</strong> - قبل از وقوع بحران</li>
+                    <li>📈 <strong>تحلیل روندها</strong> - از ۱۳۹۰ تا ۱۴۱۵</li>
+                    <li>🧠 <strong>یادگیری مستمر</strong> - هر روز هوشمندتر می‌شود</li>
+                </ul>
+            </div>
+
+            <div class="about-card highlight" style="border-color:rgba(34,211,238,0.15);">
+                <div class="about-icon">🎯</div>
+                <h3>تصمیم‌گیری هوشمند، آینده‌ای مطمئن</h3>
+                <p>
+                    <strong>این سامانه</strong> ابزاری است برای <strong>مدیران، برنامه‌ریزان و همه کسانی</strong> 
+                    که دغدغه <strong>آینده ایران</strong> را دارند. با <strong>داده‌های دقیق</strong> و 
+                    <strong>تحلیل‌های عمیق</strong>، می‌توانیم:
+                </p>
+                <ul class="about-features" style="margin-top:10px;">
+                    <li>🏗️ <strong>زیرساخت‌ها</strong> را در جای درست بسازیم</li>
+                    <li>💰 <strong>سرمایه‌گذاری</strong> را بهینه تخصیص دهیم</li>
+                    <li>👥 <strong>بازار کار</strong> را متوازن کنیم</li>
+                    <li>🌍 <strong>توسعه پایدار</strong> را برای همه مناطق ممکن کنیم</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">❤️</div>
+                <h3>کیفیت زندگی برای همه</h3>
+                <p>
+                    <strong>هدف نهایی این سامانه</strong>، <strong>افزایش کیفیت زندگی</strong> برای 
+                    <strong>همه ایرانیان</strong> است. با <strong>شناسایی علل مهاجرت</strong>، 
+                    می‌توانیم <strong>ریشه مشکلات</strong> را پیدا کنیم و <strong>راه‌حل‌های پایدار</strong> 
+                    ارائه دهیم.
+                </p>
+                <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+                    <div style="background:rgba(74,222,128,0.04);padding:10px;border-radius:8px;text-align:center;">
+                        <div style="font-size:20px;color:var(--green);">🏠</div>
+                        <div style="font-size:11px;color:var(--text-muted);">مسکن مناسب</div>
+                    </div>
+                    <div style="background:rgba(34,211,238,0.04);padding:10px;border-radius:8px;text-align:center;">
+                        <div style="font-size:20px;color:var(--cyan);">💼</div>
+                        <div style="font-size:11px;color:var(--text-muted);">اشتغال پایدار</div>
+                    </div>
+                    <div style="background:rgba(245,197,66,0.04);padding:10px;border-radius:8px;text-align:center;">
+                        <div style="font-size:20px;color:var(--gold);">🏥</div>
+                        <div style="font-size:11px;color:var(--text-muted);">سلامت عمومی</div>
+                    </div>
+                    <div style="background:rgba(168,85,247,0.04);padding:10px;border-radius:8px;text-align:center;">
+                        <div style="font-size:20px;color:#a78bfa;">📚</div>
+                        <div style="font-size:11px;color:var(--text-muted);">آموزش باکیفیت</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card full-width">
+                <div class="about-icon">📊</div>
+                <h3>داده‌ها و آمار</h3>
+                <p>
+                    <strong>این سامانه</strong> با استفاده از <strong>داده‌های رسمی و معتبر</strong>، 
+                    اطلاعات دقیقی از وضعیت مهاجرت در <strong>۳۱ استان ایران</strong> ارائه می‌دهد. 
+                    این داده‌ها شامل <strong>ورودی، خروجی و خالص مهاجرت</strong>، 
+                    <strong>علل مهاجرت</strong> (اقتصادی، اقلیمی، امنیتی، آموزشی، زیرساختی، خانوادگی و سلامت) 
+                    و <strong>روندهای تاریخی</strong> از سال ۱۳۹۰ تاکنون است.
+                </p>
+                <div class="about-stats">
+                    <div class="about-stat-item">
+                        <span class="about-stat-number">۳۱</span>
+                        <span class="about-stat-label">استان</span>
+                    </div>
+                    <div class="about-stat-item">
+                        <span class="about-stat-number">۷</span>
+                        <span class="about-stat-label">دسته‌بندی علت</span>
+                    </div>
+                    <div class="about-stat-item">
+                        <span class="about-stat-number">۱۰+</span>
+                        <span class="about-stat-label">منبع خبری</span>
+                    </div>
+                    <div class="about-stat-item">
+                        <span class="about-stat-number">۱۰۰+</span>
+                        <span class="about-stat-label">الگوریتم تحلیل</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card full-width highlight" style="border-color:rgba(245,197,66,0.12);">
+                <div class="about-icon">🚀</div>
+                <h3>قابل ارتقا و توسعه</h3>
+                <p>
+                    <strong>این سامانه</strong> فقط یک سامانه آماری نیست؛ <strong>یک پلتفرم زنده و قابل ارتقا</strong> 
+                    است که با هر بار تحلیل، <strong>دقیق‌تر و هوشمندتر</strong> می‌شود. 
+                    با اضافه شدن داده‌های جدید، الگوریتم‌های پیشرفته‌تر و تحلیل‌های عمیق‌تر، 
+                    این سامانه به ابزاری <strong>بی‌نظیر برای برنامه‌ریزی کلان</strong> تبدیل خواهد شد.
+                </p>
+                <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:10px;">
+                    <span class="tech-tag">🧠 یادگیری مستمر</span>
+                    <span class="tech-tag">📡 اتصال به سامانه‌های دولتی</span>
+                    <span class="tech-tag">📱 آماده برای اپلیکیشن موبایل</span>
+                    <span class="tech-tag">🌐 قابل مقایسه با سایر کشورها</span>
+                </div>
+            </div>
+
+            <div class="about-card full-width" style="background:linear-gradient(135deg, rgba(34,211,238,0.04), rgba(245,197,66,0.04));border-color:rgba(34,211,238,0.08);">
+                <div class="about-icon">🌟</div>
+                <h3 style="background:linear-gradient(135deg, var(--gold), var(--cyan));background-clip:text;-webkit-text-fill-color:transparent;">آینده‌ای روشن در انتظار ایران است</h3>
+                <p style="font-size:15px;line-height:2;">
+                    <strong>مهاجرت</strong> پایان راه نیست؛ <strong>آغازی برای تحول</strong> است. 
+                    با <strong>این سامانه</strong>، <strong>نگرانی را به فرصت</strong>، 
+                    <strong>ابهام را به قطعیت</strong> و <strong>چالش را به راهکار</strong> تبدیل می‌کنیم.
+                    <br><br>
+                    <strong style="color:var(--gold);">همین حالا</strong> با <strong>داده‌ها</strong> آشنا شوید، 
+                    <strong>روندها</strong> را ببینید و <strong>آینده</strong> را پیش‌بینی کنید. 
+                    <strong style="color:var(--cyan);">این سامانه</strong> همراه شماست در مسیر 
+                    <strong style="color:var(--gold);">توسعه پایدار ایران</strong>.
+                </p>
+                <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+                    <button class="btn-primary" onclick="showPage('map')" style="padding:10px 28px;font-size:13px;">🗺️ نقشه را ببین</button>
+                    <button class="btn-secondary" onclick="showPage('predict')" style="padding:10px 28px;font-size:13px;">📈 پیش‌بینی‌ها را بررسی کن</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== فوتر ===== -->
+    <footer class="footer">
+        <p>✦ سامانه پایش مهاجرت · تحلیل داده‌های رسمی</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            const monthNames = ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'];
+            const dateStr = now.getDate() + ' ' + monthNames[now.getMonth()] + ' ' + now.getFullYear();
+            const aboutDate = document.getElementById('aboutDate');
+            if (aboutDate) aboutDate.textContent = dateStr;
+        });
+    </script>
+</body>
+</html>
